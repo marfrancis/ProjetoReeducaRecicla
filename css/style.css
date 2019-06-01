@@ -7,6 +7,7 @@
 
 
 
+
 /* Inicio Configuração Header  */
 
 
@@ -32,6 +33,27 @@
 
 
 /* Inicio configuração contato */
+
+.contato-banner {
+  
+
+}
+
+.text-primary {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-address-list  {
+    list-style: none;
+}
+
+.user-details-image img {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    border: 2px solid green;
+}
 
 
 
