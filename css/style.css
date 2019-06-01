@@ -9,6 +9,16 @@
 }
 
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+.row {
+    margin-right: 0px;
+}
+
 
 
 
@@ -88,6 +98,29 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
+.user-info-settings {
+    margin-left: 15px;
+}
+
+.card-body {
+border: 1px solid green;
+border-radius: 5px;
+margin-top: 30px;
+
+}
+
+.card-body user-details-contact text-center {
+    margin-right: 15px;
+
+}
+
+div#imgform {
+    align-items: center;
+    margin: auto;
+}
+
+
 
 
 
