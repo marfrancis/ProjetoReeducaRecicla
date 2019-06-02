@@ -54,6 +54,30 @@ ul.marginHeader {
     margin-left: 100px
 }
 
+/* Inicio configuracao FAQ */
+
+h1.h1FAQ {
+    color: limegreen;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 140px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.alterarBtnLetra {
+    color: white;
+    font-size: 20px
+}
+
+.alterarBtnLetra:hover {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
 
 
 /* Fim configuração Header */
