@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.jpg" sizes="16x16 32x32" type="image/jpg">
-    
+
     <title>Contato</title>
 </head>
 
@@ -18,11 +18,7 @@
         <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
             <div class="col-md-4">
                 <a class="navbar-brand align-self-start" href="#">
-<<<<<<< HEAD
-                    <img src="img/logo_lado.png" class="logoMargin" width=" 300" height="125" alt="">
-=======
                     <img src="img/logo_lado.png" class="logoMargin" width="200" alt="">
->>>>>>> ab4a228d9bba129c3ecdf66d74c92e7db08f80cb
                 </a>
             </div>
             <div class="col-md-8">
@@ -37,26 +33,48 @@
                         <a class="nav-link grow efeitoTransicao" href="#">Loja</a>
                     </li>
                     <li class="nav-item">
-<<<<<<< HEAD
-                        <a class="nav-link grow efeitoTransicao" href="#">Contato</a>
-=======
                         <a class="nav-link grow efeitoTransicao" href="contato.html">Contato</a>
->>>>>>> ab4a228d9bba129c3ecdf66d74c92e7db08f80cb
                     </li>
                     <li class="nav-item">
                         <a class="nav-link grow efeitoTransicao" href="#">Coleta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="#">Login</a>
+                        <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@mdo" href="#">Login</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Usuário:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Senha:</label>
+                                <input type="password" class="form-control" id="password"></input>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
+                        <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-<<<<<<< HEAD
-=======
-
->>>>>>> ab4a228d9bba129c3ecdf66d74c92e7db08f80cb
     <div class="container-fluid">
         <div class="row">
 
@@ -81,20 +99,20 @@
                         </div>
                         <div class="form-group">
                             <label class="text-label">Mensagem</label>
-                            <textarea class="form-control" cols="10" rows="5"></textarea>
+                            <textarea class="form-control contato" cols="10" rows="5"></textarea>
                         </div>
-                        
+
                         <div class="submit-buttons mb-5">
                             <button type="submit" class="btn btn-card btn-success">Enviar</button>
                             <button type="reset" class="btn btn-card btn-primary">Limpar</button>
                         </div>
                     </form>
                 </div>
-            <!-- Fim Formulario -->
+                <!-- Fim Formulario -->
 
-            <!-- Imagem Abaixo formulario -->
+                <!-- Imagem Abaixo formulario -->
                 <div class="col-md-8 col-xs-12" id="imgform">
-                    <img src="img/familiareciclado.jpg" class="img-fluid" >
+                    <img src="img/familiareciclado.jpg" class="img-fluid">
                 </div>
             </div>
             <!-- fim imagem -->
@@ -112,49 +130,65 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum fugit, quae ex sint sequi
                             commodi similique corporis nemo quod asperiores autem dicta ducimus vitae reprehenderit
                             sed adipisci, iusto explicabo dignissimos.</p>
-                        </div>
-                        <div class="contact-addresses">
-                            <ul class="contact-address-list">
-                                <li class="email">
-                                    <h5><i class="fa fa-envelope text-success"></i> Email</h5>
-                                    <p>contato@reeducarecicla.com</p>
-                                </li>
-                                <li class="phone">
-                                    <h5><i class="fa fa-phone text-success"></i> Telefone</h5>
-                                    <p>(11)99999-1010</p>
-                                </li>
-                                <li class="address">
-                                    <h5><i class="fa fa-map text-success" aria-hidden="true"></i> Endereço</h5>
-                                    <p>São Paulo, SP</p>
-                                </li>
-                                <li class="location">
-                                    <h5><i class="fa fa-map-marker text-success" aria-hidden="true"></i> Localização
-                                    </h5>
-                                    <div id="location-map"></div>
-                                </li>
-                                
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="contact-addresses">
+                        <ul class="contact-address-list">
+                            <li class="email">
+                                <h5><i class="fa fa-envelope text-success"></i> Email</h5>
+                                <p>contato@reeducarecicla.com</p>
+                            </li>
+                            <li class="phone">
+                                <h5><i class="fa fa-phone text-success"></i> Telefone</h5>
+                                <p>(11)99999-1010</p>
+                            </li>
+                            <li class="address">
+                                <h5><i class="fa fa-map text-success" aria-hidden="true"></i> Endereço</h5>
+                                <p>São Paulo, SP</p>
+                            </li>
+                            <li class="location">
+                                <h5><i class="fa fa-map-marker text-success" aria-hidden="true"></i> Localização
+                                </h5>
+                                <div id="location-map"></div>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
+            </div>
             <!-- fim dados contato -->
 
+        </div>
+        <div class="recycle-feeds">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="recycle-icon fade-in-up ">
+                            <i class="fa fa-recycle img-circle"></i>
+                        </div>
+                        <p id="frase">
+                            " Recicle hoje, colha amanhã! "
+
+                        </p>
+                    </div>
+
+                </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        
-        
-        
-    </body>
-    
-    </html>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

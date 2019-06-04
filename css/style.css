@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 
 
 *{
@@ -82,6 +82,48 @@ h1.h1FAQ {
 
 
 /* Inicio Configuraçao Home */
+
+.mapa-home {
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-home-mapa {
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-card-home {
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto-card-home {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.texto-info-home {
+    margin-top: 20px;
+}
+
+.card-principal {
+    border: none;
+}
+
+.loja-anuncio {
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -183,6 +225,10 @@ margin-top: 30px;
 
 }
 
+textarea {
+    resize: none;
+}
+
 .card-body user-details-contact text-center {
     margin-right: 15px;
     
@@ -192,6 +238,35 @@ margin-top: 30px;
 div#imgform {
     align-items: center;
     margin: auto;
+}
+
+p#frase {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    color:white;
+    margin-top: 30px;
+}
+
+.recycle-feeds .recycle-icon {
+    float: left;
+    margin: 0 20px 0 15px;
+    font-size: 3em;
+    color: #3a4543;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    display: block;
+    line-height: 95px;
+    background-color: #1caa09
+}
+
+.recycle-feeds .recycle-icon i {
+    color: white;
+}
+
+.recycle-feeds {
+    background-color: #1caa09;
+    margin-top: 5px;
 }
 
 /* Fim configuração Contato */
