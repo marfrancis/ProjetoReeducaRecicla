@@ -54,6 +54,8 @@ ul.marginHeader {
     margin-left: 100px
 }
 
+/* Fim configuração Header */
+
 /* Inicio configuracao FAQ */
 
 h1.h1FAQ {
@@ -79,11 +81,6 @@ h1.h1FAQ {
 
 
 
-
-/* Fim configuração Header */
-
-
-
 /* Inicio Configuraçao Home */
 
 
@@ -93,7 +90,26 @@ h1.h1FAQ {
 
 
 /* Inicio configuração sobre nos */
-
+div.sobre{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 40px;
+    text-align: justify;
+    width: 100%;
+    
+}
+article.texto{
+    width: 50%;
+    margin-right: 120px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+div.foto{
+    width: 49%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
 
 
 /* Fim configuração sobre nos */
