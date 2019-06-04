@@ -9,47 +9,52 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.jpg" sizes="16x16 32x32" type="image/jpg">
-
+    
     <title>Contato</title>
 </head>
 
 <body>
-        <header>
-                <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
-                    <div class="col-md-4">
-                        <a class="navbar-brand align-self-start" href="#">
-                            <img src="img/logo_lado.png" class="logoMargin" width=" 300" height="125" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <ul class="nav marginHeader justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active grow efeitoTransicao" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="#">Sobre nós</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="#">Loja</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="#">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="#">Coleta</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="#">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+    <header>
+        <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
+            <div class="col-md-4">
+                <a class="navbar-brand align-self-start" href="#">
+                    <img src="img/logo_lado.png" class="logoMargin" width=" 300" height="125" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav marginHeader justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active grow efeitoTransicao" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="#">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="#">Coleta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container-fluid">
         <div class="row">
-                <div class="col-md-12 contato-banner">
-                        <img src="img/banner.jpg" class="image-fluid">
-                    </div>
+
+            <!-- Banner topo -->
+            <div class="col-md-12 contato-banner">
+                <img src="img/banner.jpg" class="image-fluid">
+            </div>
+            <!-- Fim banner -->
+
+            <!-- inicio Formulario -->
             <div class="col-md-8">
                 <div class="user-info-settings">
                     <h4 class="text-success">Contato</h4>
@@ -66,28 +71,35 @@
                             <label class="text-label">Mensagem</label>
                             <textarea class="form-control" cols="10" rows="5"></textarea>
                         </div>
-
+                        
                         <div class="submit-buttons mb-5">
                             <button type="submit" class="btn btn-card btn-success">Enviar</button>
                             <button type="reset" class="btn btn-card btn-primary">Limpar</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-md-8" id="imgform">
+            <!-- Fim Formulario -->
+
+            <!-- Imagem Abaixo formulario -->
+                <div class="col-md-8 col-xs-12" id="imgform">
                     <img src="img/familiareciclado.jpg" class="img-fluid" >
                 </div>
-            </div>  
-                <div class="col-md-4">
-                    <div class="card-body user-details-contact text-center ">
-                        <div class="user-details-image mb-3">
-                            <img class="rounded-circle" src="img/1.jpg" alt="image">
-                        </div>
-                        <div class="user-intro">
-                            <h4 class="text-success card-intro-title mb-0">Reeduca Recicla</h4>
-                            <p><small>@reeducarecicla</small></p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum fugit, quae ex sint sequi
-                                commodi similique corporis nemo quod asperiores autem dicta ducimus vitae reprehenderit
-                                sed adipisci, iusto explicabo dignissimos.</p>
+            </div>
+            <!-- fim imagem -->
+
+
+            <!-- Inicio dados contato -->
+            <div class="col-md-4 col-sm-6 col-xs-12 dadosContato">
+                <div class="card-body user-details-contact text-center ">
+                    <div class="user-details-image mb-3">
+                        <img class="rounded-circle" src="img/1.jpg" alt="image">
+                    </div>
+                    <div class="user-intro">
+                        <h4 class="text-success card-intro-title mb-0">Reeduca Recicla</h4>
+                        <p><small>@reeducarecicla</small></p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum fugit, quae ex sint sequi
+                            commodi similique corporis nemo quod asperiores autem dicta ducimus vitae reprehenderit
+                            sed adipisci, iusto explicabo dignissimos.</p>
                         </div>
                         <div class="contact-addresses">
                             <ul class="contact-address-list">
@@ -108,26 +120,29 @@
                                     </h5>
                                     <div id="location-map"></div>
                                 </li>
-
+                                
                             </ul>
                         </div>
                     </div>
                 </div>
+            <!-- fim dados contato -->
+
             </div>
-
-            
-
-
-
-
-
-            <script src="js/jquery.js"></script>
-            <script src="js/bootstrap.bundle.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-
-
-
-</body>
-
-</html>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        
+        
+    </body>
+    
+    </html>

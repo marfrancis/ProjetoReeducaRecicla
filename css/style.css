@@ -103,7 +103,10 @@ h1.h1FAQ {
 /* Inicio configuração contato */
 
 .contato-banner {
-  
+  /* background-image: url('/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; */
 
 }
 
@@ -157,7 +160,7 @@ h1.h1FAQ {
     margin-left: 15px;
 }
 
-.card-body {
+.dadosContato {
 border: 1px solid green;
 border-radius: 5px;
 margin-top: 30px;
@@ -166,6 +169,7 @@ margin-top: 30px;
 
 .card-body user-details-contact text-center {
     margin-right: 15px;
+    
 
 }
 
