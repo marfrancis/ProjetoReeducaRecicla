@@ -40,86 +40,92 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal"
-                            data-whatever="@mdo" href="#">Login</a>
+                        data-whatever="@mdo" href="#">Login</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Usuário:</label>
-                                <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Senha:</label>
-                                <input type="password" class="form-control" id="password"></input>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
-                        <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
-                    </div>
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-            </div>
-        </div>
-    </header>
-    <div class="container-fluid">
-        <div class="row">
-
-            <!-- Banner topo -->
-            <div class="col-md-12 contato-banner">
-                <img src="img/banner.jpg" class="image-fluid">
-            </div>
-            <!-- Fim banner -->
-
-            <!-- inicio Formulario -->
-            <div class="col-md-8">
-                <div class="user-info-settings">
-                    <h4 class="text-success">Contato</h4>
-                    <form action="index.html" class="user-info-setting-form">
+                <div class="modal-body">
+                    <form>
                         <div class="form-group">
-                            <label class="text-label">Nome</label>
-                            <input type="text" class="form-control" placeholder="Nome">
+                            <label for="recipient-name" class="col-form-label">Usuário:</label>
+                            <input type="text" class="form-control" id="recipient-name">
                         </div>
                         <div class="form-group">
-                            <label class="text-label">Email</label>
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label class="text-label">Mensagem</label>
-                            <textarea class="form-control contato" cols="10" rows="5"></textarea>
-                        </div>
-
-                        <div class="submit-buttons mb-5">
-                            <button type="submit" class="btn btn-card btn-success">Enviar</button>
-                            <button type="reset" class="btn btn-card btn-primary">Limpar</button>
+                            <label for="message-text" class="col-form-label">Senha:</label>
+                            <input type="password" class="form-control" id="password"></input>
                         </div>
                     </form>
                 </div>
-                <!-- Fim Formulario -->
-
-                <!-- Imagem Abaixo formulario -->
-                <div class="col-md-8 col-xs-12" id="imgform">
-                    <img src="img/familiareciclado.jpg" class="img-fluid">
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
+                    <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
                 </div>
             </div>
-            <!-- fim imagem -->
+        </div>
+    </div>
+</header>
+
+<div class="row no-gutters">
+    <!-- Banner topo -->
+    <div class="col-md-12 contato-banner">
+        <img src="img/banner.jpg" class="img-fluid">
+    </div>
+    <!-- Fim banner -->
+</div>
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <!-- inicio Formulario -->
+        <div class="col-md-8">
+            <div class="user-info-settings">
+                <h4 class="text-success">Contato</h4>
+                <form action="index.html" class="user-info-setting-form">
+                    <div class="form-group">
+                        <label class="text-label">Nome</label>
+                        <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-label">Mensagem</label>
+                        <textarea class="form-control contato" cols="10" rows="5"></textarea>
+                    </div>
+
+                    <div class="submit-buttons mb-5">
+                        <button type="submit" class="btn btn-card btn-success">Enviar</button>
+                        <button type="reset" class="btn btn-card btn-primary">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Fim Formulario -->
+
+            <!-- Imagem Abaixo formulario -->
+            <div class="col-md-8 col-xs-12" id="imgform">
+                <img src="img/familiareciclado.jpg" class="img-fluid">
+            </div>
+        </div>
+        <!-- fim imagem -->
 
 
-            <!-- Inicio dados contato -->
-            <div class="col-md-4 col-sm-6 col-xs-12 dadosContato">
+        <!-- Inicio dados contato -->
+        <div class="col-md-4 col-sm-6 col-xs-12 dadosContato"> 
+
+            <div class="card">
                 <div class="card-body user-details-contact text-center ">
                     <div class="user-details-image mb-3">
                         <img class="rounded-circle" src="img/1.jpg" alt="image">
@@ -129,7 +135,7 @@
                         <p><small>@reeducarecicla</small></p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum fugit, quae ex sint sequi
                             commodi similique corporis nemo quod asperiores autem dicta ducimus vitae reprehenderit
-                            sed adipisci, iusto explicabo dignissimos.</p>
+                        sed adipisci, iusto explicabo dignissimos.</p>
                     </div>
                     <div class="contact-addresses">
                         <ul class="contact-address-list">
@@ -155,26 +161,30 @@
                     </div>
                 </div>
             </div>
-            <!-- fim dados contato -->
 
         </div>
-        <div class="recycle-feeds">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-12">
-                        <div class="recycle-icon fade-in-up ">
-                            <i class="fa fa-recycle img-circle"></i>
-                        </div>
-                        <p id="frase">
-                            " Recicle hoje, colha amanhã! "
+        <!-- fim dados contato -->
+    </div>
 
-                        </p>
+    <div class="mb-4"></div>
+
+    <div class="recycle-feeds">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="recycle-icon fade-in-up ">
+                        <i class="fa fa-recycle img-circle"></i>
                     </div>
+                    <p id="frase">
+                        " Recicle hoje, colha amanhã! "
 
+                    </p>
                 </div>
+
             </div>
         </div>
     </div>
+</div>
 
 
 
@@ -182,10 +192,10 @@
 
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 
 
