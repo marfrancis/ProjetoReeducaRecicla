@@ -266,36 +266,102 @@ p#frase {
 /* Fim configuração ponto de coleta */
 
 
+
+
+/*Início Configuração Footer*/
+
+#footer{
+    background: #08aa84;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item-newsletter{
+    padding-left: 60px;
+    margin:0;
+}
+
+.newsletter-footer{
+    width: 200px;
+    height:25px;
+ }
+
+.footer-logo-size{
+    padding:30px;
+}
+
+#foot5{
+    background-color:  #0a9776;
+}
+
+.nav-item-redes-sociais{
+    padding:10px;
+}
+.menu-footer{
+   color:white;
+   font-weight:bold;
+   
+}
+
+#footer-copyrights{
+    color:white;    
+}
+
+.icones-footer{
+    inline-size: 40px;
+}
+/*
+.text center text-muted#footercopyrights{
+    color: whitesmoke;
+}
+COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
+
 /* Inicio configuração formulario de login */
+
+#input-remember-user{
+    width:20px;
+    height: 20px;
+}
+
+<<<<<<< HEAD
+#label-remember-user{
+    font-size: 0.9rem;
+
+=======
+input.form-control{
+    width: 250px;
+    height:30px;
+    
+>>>>>>> 8abf1cd0e1d84f381636e96377f957743f74c9eb
+}
+#btn-login{
+    background-color:green;
+}
+
+
 
 
 
 /* Fim configuração formulario de login */
 
 
+.modal-content-login{
+    background-color: rgba(36, 230, 36, 0.6);
+    color:white;
+}
 
 /* Inicio configuração formulario de cadastro */
 
 
 
+.modal-content-usuario{
+    background-color: rgba(36, 230, 36, 0.6);
+    color: white;
+    border-radius: 10px;
+}
+
+
+
 /* Fim configuração formulario de cadastro */
-
-
-/*Início Configuração Footer*/
-
-a.nav-link{
-    color: rgb(27, 59, 37);
-}
-
-input.form-control{
-    width: 250px;
-    height:30px;
-    
-}
-
-
-
-
-
-
-
