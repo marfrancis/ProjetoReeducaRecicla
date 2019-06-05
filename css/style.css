@@ -78,6 +78,10 @@ h1.h1FAQ {
     color: white;
 }
 
+.texto-card-home-mapa {
+    font-family: 'Poppins', sans-serif; 
+}
+
 .card-home-mapa {
     background-color: white;
     color: black;
@@ -101,8 +105,8 @@ h1.h1FAQ {
 }
 
 .cor-card {
-    background-color: #798b41;
-    color: white;
+    /* background-color: #798b41; */
+    /* color: white; */
 }
 
 .loja-anuncio {
