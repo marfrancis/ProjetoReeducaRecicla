@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light bg-white active shadow p-3 mb-5 rounded">
+        <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
             <div class="col-md-4">
                 <a class="navbar-brand align-self-start" href="#">
                     <img src="img/logo_lado.png" class="logoMargin" width="200" alt="">
@@ -23,26 +23,54 @@
             <div class="col-md-8">
                 <ul class="nav marginHeader justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active grow efeitoTransicao" href="#">Home</a>
+                        <a class="nav-link active grow efeitoTransicao" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="#">Sobre nós</a>
+                        <a class="nav-link grow efeitoTransicao" href="sobre.html">Sobre nós</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link grow efeitoTransicao" href="#">Loja</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="#">Contato</a>
+                        <a class="nav-link grow efeitoTransicao" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link grow efeitoTransicao" href="#">Coleta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="#">Login</a>
+                        <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="#">Login</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Usuário:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Senha:</label>
+                      <input type="password" class="form-control" id="password"></input>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
+                  <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
     <div class="container">
         <div class="row justify-content-center">
