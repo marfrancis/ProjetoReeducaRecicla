@@ -71,14 +71,11 @@ h1.h1FAQ {
 /* Inicio Configuraçao Home */
 
 .mapa-home {
-    background-color: white;
     color: black;
-    border: 1px solid green;
-    border-radius: 15px;
-    padding: 10px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 600;
+    color: white;
 }
 
 .card-home-mapa {
@@ -103,14 +100,17 @@ h1.h1FAQ {
     margin-top: 20px;
 }
 
-.card-principal {
-    border: none;
+.cor-card {
+    background-color: #798b41;
+    color: white;
 }
 
 .loja-anuncio {
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 
 
