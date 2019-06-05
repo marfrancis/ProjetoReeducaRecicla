@@ -120,24 +120,22 @@ h1.h1FAQ {
 
 /* Inicio configuração sobre nos */
 div.sobre{
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
-    padding: 40px;
     text-align: justify;
-    width: 100%;
+   
     
 }
 article.texto{
-    width: 50%;
-    margin-right: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     
 }
 div.foto{
-    width: 49%;
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#margem{
+    margin-bottom: 35px;
 }
 
 
