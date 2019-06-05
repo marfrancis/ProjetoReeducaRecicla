@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"vezes",
+				"vezesJogadas"
+			],
+			[
+				"nume",
+				"numeroAleatorio"
+			],
+			[
+				"meuar",
+				"meuArrayAssoc"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"bordbo",
+				"border-box"
+			],
+			[
+				"box-s",
+				"box-sizing\tproperty"
+			],
+			[
+				"fw",
+				"fxw-w\tflex-wrap: wrap;"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"lss",
+				"list-style"
+			],
+			[
+				"convert",
+				"convertToHex"
+			],
+			[
+				"cham",
+				"championship"
+			],
+			[
+				"quantidade",
+				"quantidadePaginas"
+			],
+			[
+				"adicionar",
+				"adicionarPessoas"
+			],
+			[
+				"quanti",
+				"quantidadePessoas"
+			],
+			[
+				"obterma",
+				"obterMarcaModelo"
+			],
+			[
+				"ob",
+				"objeto"
+			],
+			[
+				"quan",
+				"quantidadePessoas"
+			],
+			[
+				"mostrar",
+				"mostrarIdade"
+			],
+			[
+				"fazer",
+				"fazerAniversario"
+			],
+			[
+				"mostr",
+				"mostrarPeso"
+			],
+			[
+				"nome",
+				"nomeCompleto"
+			],
+			[
+				"im",
+				"img\timg"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"img",
+				"img\tTag"
+			],
+			[
+				"article",
+				"article\tTag"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"max",
+				"max\tAttr"
+			],
+			[
+				"video",
+				"video\t<video>"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"_",
+				"_imagens/"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"glass",
+				"glass-oculos-preto-peq.png\tw:200 h:121"
+			],
+			[
+				"clas",
+				"class\tAttr"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"listy",
+				"list-style\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "contato.html",
+			"settings":
+			{
+				"buffer_size": 8209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8669,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 4405,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"RE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"toggsid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"addf",
+				"Project: Add Folder"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"syjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inde",
+				"Indexing Status"
+			],
+			[
+				"exemplo",
+				"Snippet: exemplo variavel numerica"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syntax h",
+				"Set Syntax: HTML"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"sycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syhtml",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/ProjetoReeducaRecicla",
+		"/C/xampp/htdocs/ProjetoReeducaRecicla/css"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/tarefas php/exercicioaula1.php",
+		"/C/xampp/htdocs/tarefas php/exercicioaula2.php",
+		"/C/xampp/htdocs/tarefas php/exercicioaula3.php",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/blog.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/criacoes.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/contato.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/produtos.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/produto-detalhe.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/produtosteste.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/css/main.css",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/index.html",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/contact_form_handler.php",
+		"/C/Users/ADM/Dropbox/elements-cream-ice-cream-and-bakery-html5-template-S7NKEB-2016-05-17/cram-html-package/cream-html/css/custom.css",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/Projeto FS3/template/js/main.js",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/Projeto FS3/template/header.php",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/js/subscription.js",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/teaser-circles.html",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/css/animate.css",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/css/idangerous.swiper.css",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/css/style.css",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/js/global.js",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/style.css",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/contato.html",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/hobbies.html",
+		"/C/Users/ADM/Pictures/Omni-html/HTML/index-6-no-animation.html",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/index.html",
+		"/C/Users/ADM/Pictures/CURSO BOOTSTRAP/projeto final curso/fonts/index.html",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/Projeto FS3/template/index.html",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/2019-04-23.css",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 5/2019-04-23.css",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/TAREFAS COMPLEMENTARES/Tarefa Aula 1/2019-04-23.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/fale-conosco.html",
+		"/C/Users/ADM/Documents/GitHub/curso-javascript-ninja/challenge-07/challenge-07.js",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/multimidia.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/index.html",
+		"/C/Users/ADM/Pictures/CURSO FULL STACK/css/css.css",
+		"/C/Users/ADM/Documents/GitHub/curso-javascript-ninja/challenge-06/challenge-06.js",
+		"/C/Users/ADM/Documents/GitHub/curso-javascript-ninja/challenge-05/index.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/estilo.css",
+		"/C/Users/ADM/Documents/GitHub/curso-javascript-ninja/challenge-03/README.md",
+		"/C/Users/ADM/Documents/GitHub/curso-javascript-ninja/challenge-04/README.md",
+		"/C/Users/ADM/Dropbox/html-and-css-book-code-0915/chapter-15/css/site.css",
+		"/C/Users/ADM/Pictures/curso-javascript-ninja-master/challenge-05/challenge-05.js",
+		"/C/Users/ADM/Pictures/curso-javascript-ninja-master/challenge-06/challenge-06.js",
+		"/C/Users/ADM/Pictures/curso-javascript-ninja-master/challenge-33/server/routes/index.js",
+		"/C/Users/ADM/Pictures/curso-javascript-ninja-master/challenge-03/README.md",
+		"/C/Users/ADM/Pictures/curso-javascript-ninja-master/challenge-32/challenge-32.js",
+		"/C/Users/ADM/Desktop/exemplo com arrays.js",
+		"/C/Users/ADM/Desktop/exemplo concatenando strings.js",
+		"/C/Users/ADM/AppData/Roaming/Sublime Text 3/Packages/User/javascript vanilla ajax.sublime-snippet",
+		"/C/Users/ADM/AppData/Roaming/Sublime Text 3/Packages/User/exemplo variavel numerica.sublime-snippet",
+		"/C/Users/ADM/AppData/Roaming/Sublime Text 3/Packages/User/javascript onclick.sublime-snippet",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/specs.html",
+		"/C/Users/ADM/Desktop/aula1/styles.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/google-glass.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/form.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/media.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/estilo2.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/estilo3.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/fotos.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/specs.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/_css/fotos.css",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/testejavascript2.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/testejavascript.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/TESTE.HTML",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/TESTE3.HTML",
+		"/C/Users/ADM/Desktop/aula1/index.html",
+		"/C/Users/ADM/Pictures/Curso de HTML5/curso-html5-pacote01/projeto-glass-html5/styles.css"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "contato.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7485,
+								7485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2964.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3279,
+								3279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "site recicla.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\TarefasPHP\\tarefas de php.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

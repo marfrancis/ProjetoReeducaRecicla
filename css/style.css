@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 
 
 *{
@@ -7,19 +7,6 @@
     margin: 0;
     padding: 0;
 }
-
-
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-
-}
-
-.row {
-    margin-right: 0px;
-}
-
-
 
 
 /* Inicio Configuração Header  */
@@ -39,10 +26,10 @@ a.efeitoTransicao:hover {
 
 .grow:hover
 {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-        transition: 0.3s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.3s;
 }
 
 ul.marginHeader {
@@ -82,6 +69,52 @@ h1.h1FAQ {
 
 
 /* Inicio Configuraçao Home */
+
+.mapa-home {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.texto-card-home-mapa {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.card-home-mapa {
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-card-home {
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto-card-home {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.texto-info-home {
+    margin-top: 20px;
+}
+
+.cor-card {
+    /* background-color: #798b41; */
+    /* color: white; */
+}
+
+.loja-anuncio {
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 
 
 
@@ -176,11 +209,14 @@ div.foto{
     margin-left: 15px;
 }
 
-.dadosContato {
-border: 1px solid green;
-border-radius: 5px;
-margin-top: 30px;
+.dadosContato .card {
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 30px;
+}
 
+textarea {
+    resize: none;
 }
 
 .card-body user-details-contact text-center {
@@ -192,6 +228,35 @@ margin-top: 30px;
 div#imgform {
     align-items: center;
     margin: auto;
+}
+
+p#frase {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    color:white;
+    margin-top: 30px;
+}
+
+.recycle-feeds .recycle-icon {
+    float: left;
+    margin: 0 20px 0 15px;
+    font-size: 3em;
+    color: #3a4543;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    display: block;
+    line-height: 95px;
+    background-color: #1caa09
+}
+
+.recycle-feeds .recycle-icon i {
+    color: white;
+}
+
+.recycle-feeds {
+    background-color: #1caa09;
+    margin-top: 5px;
 }
 
 /* Fim configuração Contato */
@@ -262,9 +327,16 @@ COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
     height: 20px;
 }
 
+<<<<<<< HEAD
 #label-remember-user{
     font-size: 0.9rem;
 
+=======
+input.form-control{
+    width: 250px;
+    height:30px;
+    
+>>>>>>> 8abf1cd0e1d84f381636e96377f957743f74c9eb
 }
 #btn-login{
     background-color:green;
