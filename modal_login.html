@@ -14,7 +14,7 @@
 
 <!-- Modal -->
 <body>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Já tem cadastro? Acesso por aqui:</button>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Já tem cadastro? Acesso por aqui:</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -27,19 +27,26 @@
       </div>
       <div class="modal-body">
         <form>
-          <div class="form-group">
+          
+          <div class="form-group" class="form-inline">
             <label for="recipient-name" class="col-form-label">Usuário:</label>
             <input type="text" class="form-control" id="recipient-name">
+            <div class="form-inline">
+            <input type="checkbox"  class="form-control" id="input-remember-user"> 
+            <label class="col-form-label" id="label-remember-user">  Lembrar usuário</label>
+            </div>  
           </div>
+        
           <div class="form-group">
             <label for="message-text" class="col-form-label">Senha:</label>
             <input type="password" class="form-control" id="password"></input>
+            <a href="modal_cadastro_usuario.html">Esqueceu a senha?</a>
           </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
-        <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
+        <button type="submit" class="btn btn-success" data-dismiss="modal" id="btn-login">Acessar</button>
+        
       </div>
     </div>
   </div>

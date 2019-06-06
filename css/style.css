@@ -124,24 +124,22 @@ h1.h1FAQ {
 
 /* Inicio configuração sobre nos */
 div.sobre{
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
-    padding: 40px;
     text-align: justify;
-    width: 100%;
+   
     
 }
 article.texto{
-    width: 50%;
-    margin-right: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     
 }
 div.foto{
-    width: 49%;
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#margem{
+    margin-bottom: 35px;
 }
 
 
@@ -268,36 +266,104 @@ p#frase {
 /* Fim configuração ponto de coleta */
 
 
+
+
+/*Início Configuração Footer*/
+
+#footer{
+    background: #08aa84;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item-newsletter{
+    padding-left: 60px;
+    margin:0;
+}
+
+.newsletter-footer{
+    width: 200px;
+    height:25px;
+ }
+
+.footer-logo-size{
+    padding:30px;
+}
+
+#foot5{
+    background-color:  #0a9776;
+}
+
+.nav-item-redes-sociais{
+    padding:10px;
+}
+.menu-footer{
+   color:white;
+   font-weight:bold;
+   
+}
+
+#footer-copyrights{
+    color:white;    
+}
+
+.icones-footer{
+    inline-size: 40px;
+}
+/*
+.text center text-muted#footercopyrights{
+    color: whitesmoke;
+}
+COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
+
 /* Inicio configuração formulario de login */
+
+#input-remember-user{
+    width:20px;
+    height: 20px;
+}
+
+input.form-control{
+    width: 250px;
+    height:30px;
+    
+}
+
+
+#label-remember-user{
+    font-size: 0.9rem;
+
+
+}
+#btn-login{
+    background-color:green;
+}
+
+
 
 
 
 /* Fim configuração formulario de login */
 
 
+.modal-content-login{
+    background-color: rgba(36, 230, 36, 0.6);
+    color:white;
+}
+>>>>>>> 2917a5ad945434bb29b47ef6422f64a2449c5a12
 
 /* Inicio configuração formulario de cadastro */
 
 
 
-/* Fim configuração formulario de cadastro */
-
-
-/*Início Configuração Footer*/
-
-a.nav-link{
-    color: rgb(27, 59, 37);
+.modal-content-usuario{
+    background-color: rgba(36, 230, 36, 0.6);
+    color: white;
+    border-radius: 10px;
 }
 
-/* input.form-control{
-    width: 250px;
-    height:30px;
-    
-} */
 
 
-
-
-
-
-
+/* Fim configuração formulario de cadastro */
