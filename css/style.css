@@ -325,16 +325,17 @@ COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
     height: 20px;
 }
 
-<<<<<<< HEAD
-#label-remember-user{
-    font-size: 0.9rem;
-
-=======
 input.form-control{
     width: 250px;
     height:30px;
     
->>>>>>> 8abf1cd0e1d84f381636e96377f957743f74c9eb
+}
+
+
+#label-remember-user{
+    font-size: 0.9rem;
+
+
 }
 #btn-login{
     background-color:green;
@@ -351,6 +352,7 @@ input.form-control{
     background-color: rgba(36, 230, 36, 0.6);
     color:white;
 }
+>>>>>>> 2917a5ad945434bb29b47ef6422f64a2449c5a12
 
 /* Inicio configuração formulario de cadastro */
 
