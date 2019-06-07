@@ -70,6 +70,8 @@ h1.h1FAQ {
 
 /* Inicio Configuraçao Home */
 
+
+
 .img-texto {
     margin-top: auto;
     margin-bottom: auto;
@@ -124,6 +126,9 @@ h1.h1FAQ {
 .loja-anuncio {
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bannerloja.jpg);
+    background-size: cover;
+    height: 360px;
 }
 
 
