@@ -70,6 +70,15 @@ h1.h1FAQ {
 
 /* Inicio Configuraçao Home */
 
+.img-texto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-pag-home {
+    padding: 0;
+}
+
 .mapa-home {
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -93,11 +102,14 @@ h1.h1FAQ {
 
 .titulo-card-home {
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;  
 }
 
 .texto-card-home {
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .texto-info-home {
@@ -148,6 +160,10 @@ div.foto{
 
 
 /* Inicio configuração contato */
+
+.frase-contato {
+    padding: 0;
+}
 
 .contato-banner {
   /* background-image: url('/img/banner.jpg');
@@ -325,7 +341,7 @@ COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
     height: 20px;
 }
 
-input.form-control{
+.formNewsLetter {
     width: 250px;
     height:30px;
     
@@ -352,7 +368,7 @@ input.form-control{
     background-color: rgba(36, 230, 36, 0.6);
     color:white;
 }
->>>>>>> 2917a5ad945434bb29b47ef6422f64a2449c5a12
+
 
 /* Inicio configuração formulario de cadastro */
 
