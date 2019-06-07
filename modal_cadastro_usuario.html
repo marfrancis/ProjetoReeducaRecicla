@@ -14,12 +14,12 @@
 
 <!-- Modal -->
 <body>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Ainda não tem cadastro? </button>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Ainda não tem cadastro? </button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content-usuario">
-      <div class="modal-header" class="bg-sucecss">
+      <div class="modal-header" class="bg-success">
         <h5 class="modal-title" id="exampleModalLabel">Cadastro de Usuário:</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -69,10 +69,14 @@
                 <label for="message-text" class="col-form-label">Senha:</label>
                 <input type="password" class="form-control" id="password"></input>
         </div>
+        <div class="form-group">
+                <label for="message-text" class="col-form-label">Repetir senha:</label>
+                <input type="password" class="form-control" id="password"></input>
+        </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="submit" class="btn btn-secondary" id="btn-cadastro-usuario" data-dismiss="modal">Cadastrar</button>
+        <button type="submit" class="btn btn-success" id="btn-cadastro-usuario" data-dismiss="modal">Cadastrar</button>
         </div>
     </div>
   </div>
