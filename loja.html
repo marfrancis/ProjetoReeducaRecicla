@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
+        <nav class="navbar navbar-light bg-preto active shadow p-3 mb-0 ">
             <div class="col-md-4">
                 <a class="navbar-brand align-self-start" href="#">
                     <img src="img/logo_lado.png" class="logoMargin" width="200" alt="">
@@ -24,22 +24,22 @@
             <div class="col-md-8">
                 <ul class="nav marginHeader justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active grow efeitoTransicao" href="index.html">Home</a>
+                        <a class="nav-link active grow efeitoTransicaoLoja" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="sobre.html">Sobre nós</a>
+                        <a class="nav-link grow efeitoTransicaoLoja" href="sobre.html">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="loja.html">Loja</a>
+                        <a class="nav-link grow efeitoTransicaoLoja" href="loja.html">Loja</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="contato.html">Contato</a>
+                        <a class="nav-link grow efeitoTransicaoLoja" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" href="mapa.html">Mapa</a>
+                        <a class="nav-link grow efeitoTransicaoLoja" href="mapa.html">Mapa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal"
+                        <a class="nav-link grow efeitoTransicaoLoja" data-toggle="modal" data-target="#exampleModal"
                             data-whatever="@mdo" href="#">Login</a>
                     </li>
                 </ul>
@@ -75,8 +75,45 @@
             </div>
         </div>
     </header>
-    
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-verde shadow p-3 mb-0">
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav marginSubMenu">
+                <li class="nav-item active ">
+                  <a class="nav-link letraSubMenu" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle letraSubMenu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorias
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item letraSubMenu" href="#">Action</a>
+                    <a class="dropdown-item letraSubMenu" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item letraSubMenu" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul> 
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+                  </form>
+          </nav>
+          <div class="container-fluid">
+          <div class="card bg-dark text-white mt-5">
+                <img src="..." class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+          <script src="js/jquery.js"></script>
+          <script src="js/bootstrap.bundle.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

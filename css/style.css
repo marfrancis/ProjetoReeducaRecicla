@@ -352,7 +352,6 @@ input.form-control{
     background-color: rgba(36, 230, 36, 0.6);
     color:white;
 }
->>>>>>> 2917a5ad945434bb29b47ef6422f64a2449c5a12
 
 /* Inicio configuração formulario de cadastro */
 
@@ -367,3 +366,36 @@ input.form-control{
 
 
 /* Fim configuração formulario de cadastro */
+
+/* Inicio configuracao Loja */
+
+.bg-preto {
+    background-color: black;
+}
+
+a.efeitoTransicaoLoja {
+    color: limegreen;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bolder
+}
+
+a.efeitoTransicaoLoja:hover {
+    color: white;
+    transition: 0.3s;
+
+}
+
+.bg-verde {
+    background-color: limegreen
+}
+
+.marginSubMenu {
+    margin-left: 49%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letraSubMenu {
+    font-family: 'Poppins', sans-serif;
+}
