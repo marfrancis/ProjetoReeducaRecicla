@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-black-webfont.eot');
+    src: url('../fonts/roboto-black-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-black-webfont.html') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff'),
+         url('../fonts/roboto-black-webfont.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.html') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-italic-webfont.eot');
+    src: url('../fonts/roboto-italic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-italic-webfont.html') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff'),
+         url('../fonts/roboto-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.html') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.html') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.panel {
+    position: absolute;
+    left: 2%;
+    top: 200px;
+    bottom: 50px;
+    width: 350px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 10;
+}
+.panel.point_panel{
+	display:none;
+	z-index: 11;
+	left: 380px;
+	margin-left: 2%;
+}
+.panel.comment_panel, .panel.complaint_panel{
+	display:none;
+	z-index: 11;
+	left: 760px;
+	margin-left: 2%;
+}
+.panel.addpoint_panel{
+	width: 550px;
+} 
+.city_head{
+	background:#454853;
+	min-height: 75px;
+	font-size: 0px;
+	position:relative;
+	padding-left: 75px;
+	padding-right: 70px;
+}
+.city_head .photo{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	overflow:hidden;
+	width: 75px;
+	height: 75px;
+	vertical-align:top;
+}
+.city_head .photo a{
+	display:block;
+}
+.city_head .photo a img{
+	max-width: 100%;
+}
+.city_head .main_cityinfo{
+	vertical-align:top;
+	padding-top: 25px;
+	height: 50px;
+	padding-left: 19px;
+	position:relative;
+}
+.city_head .opensearch{
+	height: 75px;
+	background:#343744;
+	width: 70px;
+	position:absolute;
+	right: 0px;
+	top: 0px;
+}
+.city_head .opensearch:hover{
+	background:#323543;
+}
+.city_head .opensearch:before{
+	content: "";
+	display:block;
+	position:absolute;
+	width: 19px;
+	height: 20px;
+	background: url(../img/imgs.png) no-repeat -53px -34px;
+	left: 28px;
+	top: 29px;
+}
+.city_head .area{
+	display:block;
+	color:#bbbaba;
+	font-size: 14px;
+}
+
+.panel .search_block{
+	padding: 12px 20px;
+	background:#f3f3f3;
+	/*display:none;*/
+	/*position:absolute;*/
+	left: 0px; right:0px;
+	z-index: 10;
+	margin: 27px -70px 0px -75px;
+}
+.panel .search_block input{
+	border-bottom: 1px solid #c6c6c6;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	color:#4f4f4f;
+	width: 100%;
+	background:transparent;
+}
+
+.panel_body{
+	padding: 0px 20px;
+	font-size: 14px;
+	color:#707070;
+}
+.panel_body_wrap{
+	padding: 20px 0px; 
+}
+
+
+.trash_type{
+	font-size: 0;
+	text-align:left;
+	margin: 15px 0px;
+}
+.trash_type_title{
+	font-size: 15px;
+	color:#333333;
+	text-transform:uppercase;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.point_fractions.trash_type{
+	text-align:left;
+	margin: 15px -20px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.trash_type a, .trash_type > span{
+	font-size: 10px;
+	font-weight: 300;
+	display:inline-block;
+	vertical-align:top;
+	width: 53px;
+	height: 53px;
+
+	margin: 5px 4px;
+	text-align:center;
+	-webkit-border-radius: 27px;
+	-moz-border-radius: 27px;
+	border-radius: 27px;
+	
+	background-position: 0px 0px;
+}
+.trash_type a{
+	background-position: 0px -53px;
+}
+.trash_type a.active{
+	background-position: 0px 0px;
+}
+
+.trash_type a span, .trash_type > span span{
+	display:none;
+}
+
+.sm_trash_type > span, .sm_trash_type > a{
+	width: 30px;
+	height: 30px;
+	background-size: 30px 60px;
+	background-position: 0px 0px;
+}
+

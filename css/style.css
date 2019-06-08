@@ -64,18 +64,25 @@ h1.h1FAQ {
 
 }
 
-
-
-
-
 /* Inicio Configuraçao Home */
+
+
+
+
+.img-texto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-pag-home {
+    padding: 0;
+}
 
 .mapa-home {
     color: black;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 600;
-    color: white;
 }
 
 .texto-card-home-mapa {
@@ -93,11 +100,14 @@ h1.h1FAQ {
 
 .titulo-card-home {
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;  
 }
 
 .texto-card-home {
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .texto-info-home {
@@ -110,8 +120,15 @@ h1.h1FAQ {
 }
 
 .loja-anuncio {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bannerloja.jpg);
+    background-size: cover;
+    height: 360px;
+}
+
+.loja-anuncio-titulo {
+    margin-bottom: 30px;
 }
 
 
@@ -128,26 +145,33 @@ div.sobre{
    
     
 }
+
 article.texto{
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
     
 }
+
 div.foto{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 #margem{
     margin-bottom: 35px;
 }
-
 
 /* Fim configuração sobre nos */
 
 
 
 /* Inicio configuração contato */
+
+.frase-contato {
+    padding: 0;
+}
 
 .contato-banner {
   /* background-image: url('/img/banner.jpg');
@@ -260,18 +284,65 @@ p#frase {
 /* Fim configuração Contato */
 
 
-/* Incio Configuração ponot de coleta */
+/* Incio Configuração mapa */
 
+#map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Fim configuração ponto de coleta */
+  .city_head .photo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    vertical-align: top;
+}
+
+.city_head .opensearch {
+    height: 75px;
+    background: #343744;
+    width: 70px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.trash_type a.active {
+    background-position: 0px 0px;
+}
+
+.trash_type_title {
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-busca  {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Fim configuração mapa */
 
 
 
 
 /*Início Configuração Footer*/
 
-#footer{
-    background: #08aa84;
+#rodape {
+    background: #1caa09;
     padding-top:30px;
     padding-bottom:30px;
     font-size: 1.3em;
@@ -279,13 +350,20 @@ p#frase {
 }
 
 .nav-item-newsletter{
-    padding-left: 60px;
-    margin:0;
+    width:250px;
+    padding: 90px;
 }
 
+.div-icones{
+    margin-right:20px;
+}
 .newsletter-footer{
-    width: 200px;
-    height:25px;
+    width: 350px;
+    height:35px;
+ }
+
+.newsletter-email{
+     width:350px;
  }
 
 .footer-logo-size{
@@ -293,30 +371,30 @@ p#frase {
 }
 
 #foot5{
-    background-color:  #0a9776;
+    background-color:  #209710;
 }
 
 .nav-item-redes-sociais{
     padding:10px;
 }
+
 .menu-footer{
    color:white;
    font-weight:bold;
-   
 }
 
 #footer-copyrights{
     color:white;    
 }
 
-.icones-footer{
-    inline-size: 40px;
+.ul-icones-footer{
+    display: flex;
+    justify-content: space-around;
+    direction:row;
+    list-style: none;
+    width:140px;
+    margin-right:0;
 }
-/*
-.text center text-muted#footercopyrights{
-    color: whitesmoke;
-}
-COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
 
 /* Inicio configuração formulario de login */
 
@@ -325,28 +403,19 @@ COMO USAR A CLASSE PARA MUDAR COR DA FONTE */
     height: 20px;
 }
 
-input.form-control{
+.formNewsLetter {
     width: 250px;
     height:30px;
     
 }
 
-
 #label-remember-user{
     font-size: 0.9rem;
-
-
 }
+
 #btn-login{
     background-color:green;
 }
-
-
-
-
-
-/* Fim configuração formulario de login */
-
 
 .modal-content-login{
     background-color: rgba(36, 230, 36, 0.6);
