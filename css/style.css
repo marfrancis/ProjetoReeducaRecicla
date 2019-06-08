@@ -399,3 +399,15 @@ p#frase {
 
 
 /* Fim configuração formulario de cadastro */
+
+/* Inicio configuração interna produto*/
+
+.imgProduto{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+
+/* Fim configuração interna produto*/
