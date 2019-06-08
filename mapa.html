@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/dropdown.min.css" rel="stylesheet" type="text/css" />
+    <link href="templates/greenpeace/lib/fancy/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+	<link href="css/stylesa361.css?ver=2.3" rel="stylesheet" type="text/css" />
+	<link href="css/beta-popup.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="img/favicon.jpg" sizes="16x16 32x32" type="image/jpg">
     
     <title>Reeduca Recicla</title>
@@ -74,7 +78,7 @@
     </header>
             <!-- fim cabeçalho -->
 <body>
-        <div id="map"></div>
+        <!-- <div id="map"></div>
         <script>
           var map;
           function initMap() {
@@ -85,7 +89,126 @@
           }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"
-        async defer></script>
+        async defer></script> -->
+        
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <style>
+              /* Always set the map height explicitly to define the size of the div
+               * element that contains the map. */
+              #map {
+                height: 100%;
+              }
+              /* Optional: Makes the sample page fill the window. */
+              html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+              }
+            </style>
+          </head>
+          <body>
+            <div id="map"></div>
+            <script>
+              var map;
+              function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 8,
+                  center: new google.maps.LatLng(-23.5942,-46.6836),
+                  mapTypeId: 'roadmap'
+                });
+        
+                // Create a <script> tag and set the USGS URL as the source.
+                var script = document.createElement('script');
+                // This example uses a local copy of the GeoJSON stored at
+                // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+                script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
+                document.getElementsByTagName('head')[0].appendChild(script);
+              }
+        
+              // Loop through the results array and place a marker for each
+              // set of coordinates.
+              window.eqfeed_callback = function(results) {
+                for (var i = 0; i < results.features.length; i++) {
+                  var coords = results.features[i].geometry.coordinates;
+                  var latLng = new google.maps.LatLng(coords[1],coords[0]);
+                  var marker = new google.maps.Marker({
+                    position: latLng,
+                    map: map
+                  });
+                }
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"
+            async defer></script>
+
+            <div class="panel city_panel">
+                    <div class="city_head">
+                        <div class="photo">
+                            <a href="#" class="fit_size" data-tooltip="visao geral">
+                                                    <img src="img/id_1.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="main_cityinfo">
+                                
+                                            <!-- <input type="hidden" id="city_chose_id" value="0" />
+                            <input type="hidden" id="city_chose_title" value="São Paulo" />
+                            <input type="hidden" id="layer" value="0" />
+                            <input type="hidden" id="gos" value="0" /> -->
+                            <div class="text-busca">São Paulo</div>
+                                <select id="city" name="city" class="compact">
+                                <option value="São Paulo" selected="selected" >São Paulo</option>
+                                <option value="Santo André">Santo André</option>
+                                <option value="São Bernardo do Campo">São Bernardo do Campo</option>
+                                <option value="São Caetano do Sul">São Caetano do Sul</option>
+                                <option value="Diadema">Diadema</option>
+                                <option value="Mauá">Mauá</option>
+                                <option value="Ribeirão Pires">Ribeirão Pires</option>
+                                <option value="Rio Grande da Serra">Rio Grande da Serra</option>
+                                <option value="Osasco">Osasco</option>
+                                <option value="Guarulhos">Guarulhos</option>
+                                <option value="Barueri">Barueri</option>
+                                </select>
+                            
+                        </div>
+                        <a href="#" class="opensearch"></a>
+                        
+                        <div class="search_block">
+                            <form id="search_left" action="#">
+                                <input type="text" placeholder="Qual a sua cidade?" name="address" />
+                                <input type="submit" value="OK" style="display:none;" />
+                                <i class="ico icomarker"></i>
+                                <i data-tooltip="Minha Localizacao" class="ico icohome"></i>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="panel_body">
+                    <div class="panel_body_wrap">
+                                                <div class="trash_type">
+                            <div class="trash_type_title">ESCOLHA O MATERIAL A SER RECICLADO:</div>
+                            <a href="#" data-id="1" style="background-image: url(img/trash/trash1.png);" class=""  data-tooltip="Papel"></a>
+                            <a href="#" data-id="2" style="background-image: url(img/trash/trash2.png);" class=""  data-tooltip="Vidro"></a>
+                            <a href="#" data-id="3" style="background-image: url(img/trash/trash3.png);" class=""  data-tooltip="Plástico"></a>
+                            <a href="#" data-id="4" style="background-image: url(img/trash/trash4.png);" class=""  data-tooltip="Metal"></a>
+                            <a href="#" data-id="5" style="background-image: url(img/trash/trash5.png);" class=""  data-tooltip="Roupas"></a>
+                            <a href="#" data-id="6" style="background-image: url(img/trash/trash6.png);" class=""  data-tooltip="Celular"></a>
+                            <a href="#" data-id="7" style="background-image: url(img/trash/trash7.png);" class=""  data-tooltip="Resíduos Perigosos"></a>
+                            <a href="#" data-id="8" style="background-image: url(img/trash/trash8.png);" class=""  data-tooltip="Baterias"></a>
+                            <a href="#" data-id="9" style="background-image: url(img/trash/trash9.png);" class=""  data-tooltip="Lampadas"></a>
+                            <a href="#" data-id="10" style="background-image: url(img/trash/trash10.png);" class=""  data-tooltip="Eletrodomésticos">
+                            </a><a href="#" data-id="11" style="background-image: url(img/trash/trash11.png);" class=""  data-tooltip="Tetra Pack">
+                            </a>			
+                        </div>
+                        
+                                    
+                        
+                    
+                    </div>	
+                    </div>
+                </div>
+          </body>
+        </html>
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.bundle.js"></script>

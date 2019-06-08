@@ -295,6 +295,42 @@ p#frase {
     padding: 0;
   }
 
+  .city_head .photo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    vertical-align: top;
+}
+
+.city_head .opensearch {
+    height: 75px;
+    background: #343744;
+    width: 70px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.trash_type a.active {
+    background-position: 0px 0px;
+}
+
+.trash_type_title {
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-busca  {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
 
 /* Fim configuração mapa */
 

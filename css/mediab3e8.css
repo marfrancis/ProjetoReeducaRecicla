@@ -1,0 +1,521 @@
+/*iPad*/
+@media screen and (max-width: 1100px), (max-device-width: 1024px) {
+
+}
+@media screen and (max-width: 1100px) {
+
+}
+@media screen and (max-width: 1600px) {
+	.panel.point_panel{
+		left: 70px;
+	}
+	.panel.complaint_panel, .panel.comment_panel{
+		left: 140px;
+	}
+}
+@media screen and (max-width: 1250px) {
+	.list_size{
+		max-width: 96%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	#head .logo{
+		width: 207px;
+		height: 33px;
+		background-position: 0px -77px;
+		left: 0;
+		top: 10px;
+		margin-left: -2px;
+	}
+	#head .greenpeace_logo {
+		display: none;
+	}
+	.search_config .col23{
+		float:none;
+		padding: 0px;
+		width: auto;
+	}
+	.receiver_layer .col3{
+		padding: 0px !important;
+		width: auto !important;
+	}
+}
+@media screen and (max-width: 1000px) {
+	#footer{
+		display:none;
+	}
+	.zoom_controller{
+		display:none;
+	}
+	#fullscreen{
+		bottom: 17px;
+		display:none;
+	}
+	.point_controll{
+		bottom: 17px;
+		right: 13px;
+	}
+	#head .top_menu li + li{
+		padding-left: 20px;
+	}
+	.main_share{
+		display:none;
+	}
+	.main_share{
+		display:none;
+	}
+	.module_petition .main_share{
+		display: block;
+	}
+	.personal_main{
+		padding: 0px 20px 35px 20px;
+	}
+	.profile_capabilities{
+		font-size: 24px;
+		padding-top: 20px;
+	}
+	/*
+	.personal_left_menu{
+		position:static;
+		margin: 0px -20px;
+		width: auto;
+		padding-top: 0px;
+		margin-bottom: 30px;
+	}
+	.personal_left_menu ul li{
+		display: inline-block;
+	}
+	.personal_left_menu ul li a{
+		padding: 0 20px;
+	}*/
+	
+	.personal_main{
+		padding-top: 20px;
+	}
+	.personal_left_menu{
+		padding-top: 0px;
+		z-index:99;
+	}
+	.personal_left_menu ul{
+		display:none;
+		position:absolute;
+		background:#f2f2f2;
+		right: 0px;
+		z-index: 10;
+		width: 200px;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		top: 40px;
+	}
+	.personal_left_menu ul:before{
+		content: "";
+		display:block;
+		position:absolute;
+		border: 10px solid transparent; 
+		border-bottom: 10px solid #f2f2f2; 
+		bottom: 100%;
+		right: 7px;
+	}
+	.personal_left_menu.active ul{
+		display:block;
+	}
+	.personal_left_menu ul li{
+		display:block;
+	}
+	.personal_left_menu{
+		display:block;
+		background: rgba(0, 0, 0, 0) url("../img/imgs.png") no-repeat scroll -383px -65px;
+		border-radius: 0;
+		height: 20px;
+		margin-top: 15px;
+		width: 30px;
+		position:absolute;
+		right: 20px;
+		top: 30px;
+		margin: 0px;
+		left: auto;
+		cursor:pointer;
+	}
+	.edit_profile_page{
+		padding-left: 0px;
+	}
+	.edit_profile_page .avatar{
+		display:none;
+	}
+	.search_open{
+		margin-top: 40px;
+	}
+	
+	.only_desctop{
+		display:none;
+	}
+	.only_mobile{
+		display:block;
+	}
+	
+}
+@media screen and (max-width: 900px) {
+	#head .top_menu li{
+		font-size: 14px;
+	}
+	.personal_list_link_item .row .col2{
+		float:none;
+		width:100%;
+	}
+	.personal_main .sub_menu li{
+		margin: 5px;
+	}
+	.personal_questions{
+		display:none;
+	}
+	.personal_footer_menu{
+		float:left;
+	}
+	.social_accounts a{
+		margin: 3px;
+	}
+}
+@media screen and (max-width: 800px) {
+	#ajax.popup, #volunteer.popup{
+		width: auto;
+		left: 1%;
+		right: 1%;
+		margin-left: 0px;
+	}
+	.popup_head{
+		min-height: 35px;
+		height: auto;
+	}
+	.panel.city_panel{
+		display:none;
+	}
+	#head .top_menu{
+		display:none;
+	}
+	#head .logo {
+		
+		/*margin-top: 15px;
+		width: 130px;
+		height: 20px;
+		background-position: -247px -151px;*/
+		position:absolute;
+		left: 50%;
+		margin-left: -103px;
+	}
+	#head .profile > .avatar > img{
+		display:none;
+	}
+	#head .profile > .avatar{
+		width: 30px;
+		height: 20px;
+		background: url(../img/imgs.png) no-repeat -383px -65px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		margin-top: 15px;
+	}
+	#head .show_city{
+		display: block;
+	}
+	#head .callout_head .close{
+		display:block;
+	}
+	#head .profile .callout{
+		position:fixed;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		background:#ffffff;
+		margin-top: 0px;
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		overflow-y: auto;
+	}
+	#head .profile .callout li{
+		border-bottom: 0px none;
+		padding: 10px 0px;
+	}
+	#head .profile .logout{
+		padding-left: 48px;
+		padding-right: 0px;
+	}
+	#head .profile .logout:before{
+		right: auto;
+		left: 0px;
+	}
+	#head .profile .text-right {
+		text-align: left;
+	}
+	#head .profile .callout ul{
+		border-bottom: 1px solid #ededed;
+		padding: 10px 0px;
+	}
+	#head .callout .callout_footer{
+		background: #ffffff;
+	}
+	.panel_body{
+		-webkit-overflow-scrolling: touch;
+		overflow: auto !important;
+		
+	}	
+	.slimScrollBar{
+		display:none !important;
+	}
+	
+	.module_welcome .col2, 
+	.module_petition .col2{
+		width: auto;
+		height: auto !important;
+		float:none;
+	}
+	.module_welcome .col2,
+	.module_petition .col2{
+		margin-right: 0px;
+	}
+	.module_welcome .col2 + .col2,
+	.module_petition .col2 + .col2{
+		margin-left: 0px;
+	}
+	.module_welcome .col2 img,
+	.module_petition .col2 img{
+		width: 100%;
+	}
+	.module_welcome h1,
+	.module_petition .h1{
+		padding-top: 30px;
+		font-size: 23px;
+	}
+	.module_welcome h2,
+	.module_petition .h2{
+		font-size: 18px;
+	}
+	.only_mob{
+		display:block;
+	}	
+	
+	.search_config .col2,
+	.search_config .col2 + .col2{
+		padding: 0px;
+		width: auto;
+		float:none;
+	}
+}
+@media screen and (max-width: 720px) {
+	.input_hidden_forms .row .col2{
+		float:none;
+		width: 100%;
+	}
+	.input_hidden_forms .row .col2 + .col2{
+		margin-top: 10px;
+	}
+	.personal_list_link.with_author .personal_list_link_head{
+		padding-right: 0px;
+		padding-top: 50px;
+	}
+	.item_author{
+		padding-left: 65px;
+		padding-right: 0px;
+		text-align:left;
+		width: auto;
+		left: 0px;
+		right: auto;
+	}
+	.item_author .avatar{
+		right: auto;
+		left: 0;
+	}
+	
+	.pagination-list li{
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.pagination-list li a{
+		height: 35px;
+		line-height: 35px;
+		font-size: 13px;
+	}
+	
+}
+@media screen and (max-width: 600px){
+	.panel {
+		bottom: 0px;
+		left: 0;
+		top: 75px;
+		width: 100%;
+		margin-left: 0;
+	}
+	.panel.city_panel{
+		margin-left: -2%;
+	}
+	.panel.point_panel, .panel.comment_panel, .panel.complaint_panel{
+		left: -2%;
+	}
+	.panel.addpoint_panel{
+		width: auto;
+	}
+	.point_controll a{
+		position:absolute;
+		right: 0px;
+		bottom: 0px;
+	}
+	.point_controll a.edit_point_btn{
+		z-index: 10;
+	}
+	
+	
+	#donation.popup, #volunteer.popup{
+		width: auto;
+		left: 1%;
+		right: 1%;
+		margin-left: 0px;
+		max-width: 98%;
+	}
+	.profile_capabilities{
+		font-size: 18px;
+	}
+	.personal_list_item .status_box{
+		width: 50px;
+	}
+	.personal_list_item .status_box:before{
+		left:50%;
+		margin-left: -32px;
+	}
+	.personal_list_item{
+		padding-left: 50px;
+	}
+	.personal_list_item .personal_list_link{
+		padding: 12px;
+	}
+	.personal_list{
+		margin: 0px -20px;
+	}
+	.personal_list_link_footer{
+		margin: 25px -12px -12px;
+	}
+	.personal_list_link_footer .fl_right{
+		float:none;
+	}
+	.personal_list_link_footer .fl_right button{
+		display:block;
+		margin: 5px 0px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 550px){
+	.search_open{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 500px){
+	.profile_capabilities{
+		display:none;
+	}
+	.personal_creative{
+		height: 440px;
+	}
+	.pagination-list{
+		padding: 0px 35px;
+		position:relative;
+	}
+	.pagination-list li.prev{
+		left: 0px;
+	}
+	.pagination-list li.next{
+		
+		right: 0px;
+		
+	}
+	.pagination-list li{
+		border-left: 1px solid #e8e8e8;
+		border-right: 1px solid #e8e8e8;
+		margin-left: -1px;
+	}
+	.pagination-list li.prev, .pagination-list li.next{
+		top: 50%;
+		margin-top: -17px;
+		position:absolute;
+		border: 0px none;
+	}
+}
+@media screen and (max-width: 400px) {
+	.popup{
+		width: 320px;
+		top: 60px;
+		margin-left: -160px;
+	}
+	.popup_head, .popup_body{
+		padding: 20px;
+	}
+	#slogin-buttons a + a, .slogin-buttons a + a{
+		margin-left: 10px;
+	}
+	.city_head .main_cityinfo{
+		padding-left: 10px;
+	}
+	/*.city_head .opensearch{
+		width: 50px;
+	}*/
+	.city_head .opensearch::before{
+		left: 20px;
+	}
+	.locat_item .locat_address{
+		width: 215px;
+	}
+	.work_time_block .col2 + .col2, .work_date_block .col2 + .col2,
+	.work_time_block .col2, .work_date_block .col2{
+		padding: 0px 20px;
+		width: 100%;
+	}
+	.week_day_label{
+		text-align:left;
+	}
+	#donation .payment{
+		display:none;
+	}
+	.personal_list_link_footer{
+		padding: 15px;
+	}
+	
+	.search_config .input_list .ui.dropdown{
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+	.search_btn{
+		float:none;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
+
+
+/*For retina*/
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5), 
+only screen and (min-resolution: 1.5dppx){
+	#head .show_city, #head .search_btn, .logout:before, #fullscreen:before, .city_head .opensearch:before, .locat_item .build_route:before, form.get_direction .ico, #search_left .ico, 
+	.point_head .close_link, .popup .popup_head .close, .point_head .back_link, .callout_head .close, .add_comment_not_user:before, .point_reiting_buttons a:before, 
+	.point_buttons a:before, .point_address:before, .point_spoiler > a:after, .ico1:before, .time_schem td.holiday i, .cofebreack:before, .point_contact .point_title:before, .point_comments .point_title:before, 
+	.point_contact span:before, .point_contact a:before, .point_share > a, .ya-share2__container li a, .filter_logic:before, .input_box i, .vkontakteslogin, .facebookslogin, .radio, .gender_woman:before, .gender_man:before{
+		background-image: url(../img/imgs_x2.png);
+		background-size: 438px 275px;
+	}
+	
+	
+	.personal_creative .main_page:before, .personal_questions:before, .personal_ticket, .profile_email:before, .input_hidden .input_hidden_val .input_hidden_edit, .input_hidden.city_box:before, .change_pass i:before, 
+	.input_hidden_forms div.submit .btn, .password_block .btn i:before, .social_accounts a:before, .social_accounts a i, .pagination-list li .icon-previous, .pagination-list li .icon-next, .personal_list_item a.personal_list_link:before, .btn_fragments i:before{
+		background-image: url(../img/personal_x2.png);
+		background-size: 180px 252px;
+	}
+	#head .logo,
+	#head .greenpeace_logo{
+		background-image: url(../img/rm_logo_x2.png);
+		background-size: 451px 110px;
+	}
+	
+}
