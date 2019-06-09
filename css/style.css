@@ -656,7 +656,9 @@ div.thumbnails .magnifier .buttons {
 
 
 
-
+.bg-preto{
+    background-color: #333333
+}
 
 a.efeitoTransicaoLoja {
     color: limegreen;
@@ -685,27 +687,106 @@ a.efeitoTransicaoLoja:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-.bannerLojaProdutos {
-    background-color: black;
-    width: 80%;
-    height: 250%;
-    padding-left: 0px;
-    margin: auto;
-    margin-top: 2%;
-}
 
-.categLoja {
-    list-style: none;
-    text-decoration: none;
-    background-color: limegreen;
+#lojaCategorias.secao {
+    padding: 60px 0px;
+    margin: 30px 0px;
+    background-color:#333333;
+  }
+  
+  .lojaCategorias {
+    text-align: center;
+  }
+  
+  .lojaCategorias .categoriasEcomm {
+    margin-bottom: 30px;
+  }
+  
+  .lojaCategorias .categoriasEcomm>li {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
     border-radius: 50%;
-    width: 6%;
-    height: 120px;
-    font-family: 'Poppins', sans-serif;
+    margin: 0px 5px;
+    font-size: 20px
+  }
+  
+  .lojaCategorias .categoriasEcomm>li>div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+ .decoracaoTxtLoja {
     color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.60rem;
+  }
+  
+  
+  
+  .lojaCategorias p {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .lojaCategorias .cta-btn {
+    margin-top: 15px;
+  }
 
+.decoracaoH2Loja {
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lojaCategorias .categoriasEcomm .liSemBola {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.lojaCategorias .categoriasEcomm>li>div>h3>a {
+    text-decoration: none;
+    color: whitesmoke;
 
 }
+
+.lojaCategorias .categoriasEcomm>li>div>h3>a:hover {
+    color: limegreen
+}
+
+.h1LojaHome {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder
+}
+
+.linha {
+    background-color: limegreen;
+    width: 100%;
+    height: 10%;
+}
+
+.precoLoja {
+    color: forestgreen;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+
+
 
 
 
