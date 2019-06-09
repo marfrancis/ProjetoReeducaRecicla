@@ -349,8 +349,9 @@ p#frase {
     font-size: 17px;
     line-height: normal;
     font-family: 'Poppins', sans-serif;
-
 }
+
+
 
 .botao-pesquisa {
     background: #454853;
@@ -657,6 +658,55 @@ div.thumbnails .magnifier .buttons {
 
 
 
+a.efeitoTransicaoLoja {
+    color: limegreen;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bolder
+}
+
+a.efeitoTransicaoLoja:hover {
+    color: white;
+    transition: 0.3s;
+
+}
+
+.bg-verde {
+    background-color: limegreen
+}
+
+.marginSubMenu {
+    margin-left: 49%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letraSubMenu {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bannerLojaProdutos {
+    background-color: black;
+    width: 80%;
+    height: 250%;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.categLoja {
+    list-style: none;
+    text-decoration: none;
+    background-color: limegreen;
+    border-radius: 50%;
+    width: 6%;
+    height: 120px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 
 
-/* Fim configuração interna produto*/
+}
+
+
+
+/* fim configuracoes loja */ 
