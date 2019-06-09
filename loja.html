@@ -75,8 +75,8 @@
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-verde shadow p-3 mb-0">
-          
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-verde shadow p-3 mb-0">   
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav marginSubMenu">
                 <li class="nav-item active ">
@@ -87,10 +87,11 @@
                     Categorias
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item letraSubMenu" href="#">Action</a>
-                    <a class="dropdown-item letraSubMenu" href="#">Another action</a>
+                    <a class="dropdown-item letraSubMenu" href="#">Roupas</a>
+                    <a class="dropdown-item letraSubMenu" href="#">Móveis</a>
+                    <a class="dropdown-item letraSubMenu" href="#">Decoração</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item letraSubMenu" href="#">Something else here</a>
+                    <a class="dropdown-item letraSubMenu" href="#">Diversos</a>
                   </div>
                 </li>
               </ul> 
@@ -100,16 +101,19 @@
                     <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
                   </form>
           </nav>
-          <div class="container-fluid">
-          <div class="card bg-dark text-white mt-5">
-                <img src="..." class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
+        </div>
+          <div class="row">
+              <div class="container-fluid">
+                <div class="col-12 bannerLojaProdutos">
+                    <ul class="d-flex justify-content-around">
+                        <li class="categLoja text-center mb-auto  "><a class="linkBola">Roupas</a></li>
+                        <li class="categLoja text-center"><a class="linkBola">Móveis</a></li>
+                        <li class="categLoja text-center"><a class="linkBola">Decoração</a></li>
+                        <li class="categLoja text-center"><a class="linkBola">Diversos</a></li>
+                    </ul>
                 </div>
-              </div>
-            </div>
+          </div>
+        </div>
           <script src="js/jquery.js"></script>
           <script src="js/bootstrap.bundle.js"></script>
           <script src="js/bootstrap.bundle.min.js"></script>

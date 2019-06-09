@@ -331,7 +331,6 @@ p#frase {
     font-size: 17px;
     line-height: normal;
     font-family: 'Poppins', sans-serif;
-
 }
 
 /* Fim configuração mapa */
@@ -341,7 +340,7 @@ p#frase {
 
 /*Início Configuração Footer*/
 
-#rodape {
+#footer{
     background: #1caa09;
     padding-top:30px;
     padding-bottom:30px;
@@ -422,6 +421,8 @@ p#frase {
     color:white;
 }
 
+/* Fim configuração formulario de login */
+
 /* Inicio configuração formulario de cadastro */
 
 
@@ -436,10 +437,20 @@ p#frase {
 
 /* Fim configuração formulario de cadastro */
 
-/* Inicio configuracao Loja */
+/* Inicio configuração interna produto*/
+
+/* Fim configuração interna produto*/
+
+/* Configuracoes gerais loja */
 
 .bg-preto {
-    background-color: black;
+    background-color: #333333
+}
+
+.imgProduto{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
 }
 
 a.efeitoTransicaoLoja {
@@ -468,3 +479,29 @@ a.efeitoTransicaoLoja:hover {
 .letraSubMenu {
     font-family: 'Poppins', sans-serif;
 }
+
+.bannerLojaProdutos {
+    background-color: black;
+    width: 80%;
+    height: 250%;
+    padding-left: 0px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.categLoja {
+    list-style: none;
+    text-decoration: none;
+    background-color: limegreen;
+    border-radius: 50%;
+    width: 6%;
+    height: 120px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+
+}
+
+
+
+/* fim configuracoes loja */ 
