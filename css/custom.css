@@ -1,0 +1,147 @@
+/* = Parent Theme Custom CSS File
+-------------------------------------------------------------- */
+.post.sticky .theme-btn, input[type="submit"], #respond input[type="submit"], .toggle > dt, .accordion > dt, .selectric .button, .selectricItems li.selected, .nav-dropdown a.button, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce a.button, .woocommerce-page a.button, .woocommerce a.added_to_cart, .woocommerce-page a.added_to_cart, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt{
+    background-color:#3a4543;
+}
+
+.post.sticky .theme-btn:hover, input[type="submit"]:hover, #respond input[type="submit"]:hover, .toggle > dt:hover, .accordion > dt:hover, .toggle > dt.current, .accordion > dt.current, .nav-dropdown a.button:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover{
+    background-color:#66d9c1;
+}
+
+.post.sticky .theme-btn:active, input[type="submit"]:active, #respond input[type="submit"]:active, .nav-dropdown a.button:active, .woocommerce #content input.button:active, .woocommerce #respond input#submit:active, .woocommerce a.button:active, .woocommerce button.button:active, .woocommerce input.button:active, .woocommerce-page #content input.button:active, .woocommerce-page #respond input#submit:active, .woocommerce-page a.button:active, .woocommerce-page button.button:active, .woocommerce-page input.button:active{
+    background-color:#66d9c1;
+}
+
+.post.sticky .theme-btn, input[type="submit"], #respond input[type="submit"], .toggle > dt, .accordion > dt, .selectric .button:after, .selectricItems li.selected, .nav-dropdown a.button, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce a.button, .woocommerce-page a.button, .woocommerce a.added_to_cart, .woocommerce-page a.added_to_cart, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt{
+    color:#ffffff;
+}
+
+.post.sticky .theme-btn:hover, input[type="submit"]:hover, #respond input[type="submit"]:hover, .toggle > dt:hover, .accordion > dt:hover, .toggle > dt.current, .accordion > dt.current, .nav-dropdown a.button:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover{
+    color:#ffffff;
+}
+
+.post.sticky .theme-btn:active, input[type="submit"]:active, #respond input[type="submit"]:active, .woocommerce #content input.button:active, .woocommerce #respond input#submit:active, .woocommerce a.button:active, .woocommerce button.button:active, .woocommerce input.button:active, .woocommerce-page #content input.button:active, .woocommerce-page #respond input#submit:active, .woocommerce-page a.button:active, .woocommerce-page button.button:active, .woocommerce-page input.button:active{
+    color:#ffffff;
+}
+
+.theme-btn, .pagination a, .pagination span{
+    background-color:#66d9c1;
+}
+
+.theme-btn:hover, .pagination a:hover, .pagination span.current{
+    background-color:#3a4543;
+}
+
+.theme-btn:active, .pagination a:active{
+    background-color:#3a4543;
+}
+
+.theme-btn, .pagination a, .pagination span{
+    color:#ffffff;
+}
+
+.theme-btn:hover, .pagination a:hover, .pagination span.current{
+    color:#ffffff;
+}
+
+.theme-btn:active, .pagination a:active{
+    color:#ffffff;
+}
+
+.home-slider .slide-description a{
+    background-color:#282424;
+}
+
+.home-slider .slide-description a:hover{
+    background-color:#66d9c1;
+}
+
+.home-slider .slide-description a:active{
+    background-color:#66d9c1;
+}
+
+.home-slider .flex-direction-nav a{
+    background-color:#282424;
+}
+
+.home-slider .flex-direction-nav a:hover{
+    background-color:#66d9c1;
+}
+
+.home-slider .flex-direction-nav a:active{
+    background-color:#66d9c1;
+}
+
+.home-services-section .curve:before{
+    box-shadow:0 0 0 110px #66d9c1;
+}
+
+.home-services-section .curve{
+    top:-110px;
+}
+
+.home-services-section .curve{
+    height:110px;
+}
+
+.home-testimonial-section .testimonial-carousel-nav a{
+    background-color:#282424;
+}
+
+.home-testimonial-section .testimonial-carousel-nav a:hover{
+    background-color:#66d9c1;
+}
+
+.home-testimonial-section .testimonial-carousel-nav a:active{
+    background-color:#66d9c1;
+}
+
+.home-testimonial-section .img-frame span{
+    background-color:#ddf5f1;
+}
+
+.home-testimonial-section .testimonial-content:hover span{
+    background-color:#fdeac2;
+}
+
+.service-plans .image-container{
+    background-color:#fad382;
+}
+
+.service-plans .image-container:hover{
+    background-color:#fce3b0;
+}
+
+.twitter-feeds .twitter-icon i{
+    background-color:#f1c76e;
+}
+
+.twitter-feeds .twitter-icon i:hover{
+    background-color:#ffffff;
+}
+
+#scroll-top{
+    background-color:#3a3a3a;
+}
+
+#scroll-top:hover{
+    background-color:#212121;
+}
+
+#scroll-top:active{
+    background-color:#212121;
+}
+
+.home-slider .slide-description{
+    top:60%;
+}
+
+.home-slider .slide-description.show-bg{
+    top:60%;
+}
+
+.main-menu ul li.current-menu-item > a{
+    color:#ffffff;
+}
+
+#menu-main-menu{margin-top:0;}.home-slider .slide-description h2{color:#ffffff;}.home-slider .slide-description p{color:#131313;}.home-slider .slide-description a{color:#ffffff;}.home-slider .slide-description a:hover{color:#ffffff;}.home-slider .slide-description a:active{color:#ffffff;}.home-services-section .section-top{background-color:#66d9c1;}.home-services-section .section-header .section-title{color:#ffffff;}.home-services-section .section-header p{color:#357165;}.home-work-section{background-color:#faf8f4;}.home-work-section .section-title{color:#3a4543;}.home-work-section .section-header p{color:#969d9b;}.home-testimonial-section{background-color:#ffffff;}.home-testimonial-section .section-title{color:#3a4543;}.home-testimonial-section .section-header p{color:#969d9b;}.home-testimonial-section .testimonial-text p{color:#7f8281;}.home-testimonial-section .testimonial-text a, .home-testimonial-section .testimonial-text cite{color:#66d9c1;}.home-testimonial-section .testimonial-text a:hover, .home-testimonial-section .testimonial-text cite:hover{color:#3a4543;}.home-testimonial-section .testimonial-text a:active, .home-testimonial-section .testimonial-text cite:active{color:#3a4543;}.home-testimonial-section .testimonial-carousel{border-color:#f1f1f1;}.home-testimonial-section .vertical-line{background-color:#f1f1f1;}.home-testimonial-section .img-frame{border-color:#d6d6d6;}.service-plans{background-color:#f9ca67;}.service-plans .section-title{color:#3a4543;}.service-plans p{color:#ffffff;}.service-plans .title a{color:#3a4543;}.service-plans .title a:hover{color:#ffffff;}.service-plans .title a:active{color:#ffffff;}.home-blog-section{background-color:#ffffff;}.home-blog-section .section-title{color:#3a4543;}.home-blog-section .section-header p{color:#969d9b;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color:#3a4543;}body{color:#7b7d85;}.format-quote .quote p,blockquote p{color:#3a4543;}a{color:#66d9c1;}a:hover{color:#3a4543;}a:active{color:#3a4543;}.widget ul li a{color:#969d9b;}.widget ul li a:hover{color:#66d9c1;}.widget ul li a:active{color:#66d9c1;}.header-wrapper{background-color:#2c2725;}.header-border-bottom{border-color:#3f310a;}.logo a{color:#e5b65c;}.logo a:hover{color:#66d9c1;}.logo a:active{color:#66d9c1;}.logo small{color:#959185;}.main-menu > ul > li a{color:#9a928f;}.main-menu > ul > li a:hover{color:#ffffff;}.main-menu > ul > li a:active{color:#ffffff;}.main-menu ul li > ul{background-color:#2c2725;}.main-menu ul li > ul{border-color:#e5b65c;}.main-menu ul li > ul li a{color:#7f7977;}.main-menu ul li > ul li a:hover{color:#ffffff;}.main-menu ul li > ul li a:active{color:#ffffff;}.main-menu ul li > ul li a{border-color:#9b7c44;}.mean-container a.meanmenu-reveal span{background-color:#ffffff;}.mean-container .mean-nav ul li a, .mean-container a.meanmenu-reveal{color:#ffffff;}.mean-container .mean-nav ul li a:hover{color:#e5b65c;}.mean-container .mean-nav ul li a, .mean-container .mean-nav ul li li a{border-color:#9b7c44;}.twitter-feeds{background-color:#fbd27a;}.twitter-feeds .inline_tweet{color:#3a4543;}.twitter-feeds a{color:#ffffff;}.twitter-feeds a:hover{color:#3a4543;}.twitter-feeds a:active{color:#ffffff;}.twitter-feeds .twitter-icon i{color:#3a4543;}.twitter-feeds .twitter-icon i:hover{color:#f1c76e;}footer.footer{background-color:#282424;}footer.footer{color:#6e6d6d;}.footer a{color:#6e6d6d;}.footer a:hover{color:#ffffff;}.footer a:active{color:#fbd27a;}.footer .footer-menu-wrapper, .footer .invitation{border-color:#3a3a3a;}.social_networks li a{color:#ffffff;}.social_networks li a:hover{color:#66d9c1;}.social_networks li a:active{color:#fbd27a;}.footer-bottom{background-color:#181515;}.footer-bottom p{color:#6e6d6d;}

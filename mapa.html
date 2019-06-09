@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/dropdown.min.css" rel="stylesheet" type="text/css" />
-    <link href="templates/greenpeace/lib/fancy/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
 	<link href="css/stylesa361.css?ver=2.3" rel="stylesheet" type="text/css" />
 	<link href="css/beta-popup.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="img/favicon.jpg" sizes="16x16 32x32" type="image/jpg">
@@ -151,13 +151,31 @@
                             </a>
                         </div>
                         <div class="main_cityinfo">
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle botao-pesquisa" type="button" data-toggle="dropdown">São Paulo
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">São Paulo</a></li>
+                                  <li><a href="#">Santo André</a></li>
+                                  <li><a href="#">São Bernardo do Campo</a></li>
+                                  <li><a href="#">São Caetano do Sul</a></li>
+                                  <li><a href="#">Diadema</a></li>
+                                  <li><a href="#">Mauá</a></li>
+                                  <li><a href="#">Ribeirão Pires</a></li>
+                                  <li><a href="#">Rio Grande da Serra</a></li>
+                                  <li><a href="#">Osasco</a></li>
+                                  <li><a href="#">Guarulhos</a></li>
+                                  <li><a href="#">Barueri</a></li>
+                                </ul>
+                              </div>
                                 
                                             <!-- <input type="hidden" id="city_chose_id" value="0" />
                             <input type="hidden" id="city_chose_title" value="São Paulo" />
                             <input type="hidden" id="layer" value="0" />
                             <input type="hidden" id="gos" value="0" /> -->
-                            <div class="text-busca">São Paulo</div>
-                                <select id="city" name="city" class="compact">
+                            <!-- <div class="text-busca">São Paulo</div> -->
+                                <!-- <select id="city" name="city" class="compact"> -->
+                                <!-- <select>
                                 <option value="São Paulo" selected="selected" >São Paulo</option>
                                 <option value="Santo André">Santo André</option>
                                 <option value="São Bernardo do Campo">São Bernardo do Campo</option>
@@ -169,7 +187,7 @@
                                 <option value="Osasco">Osasco</option>
                                 <option value="Guarulhos">Guarulhos</option>
                                 <option value="Barueri">Barueri</option>
-                                </select>
+                                </select> -->
                             
                         </div>
                         <a href="#" class="opensearch"></a>
@@ -187,17 +205,17 @@
                     <div class="panel_body_wrap">
                                                 <div class="trash_type">
                             <div class="trash_type_title">ESCOLHA O MATERIAL A SER RECICLADO:</div>
-                            <a href="#" data-id="1" style="background-image: url(img/trash/trash1.png);" class=""  data-tooltip="Papel"></a>
+                            <a href="#" data-id="1" style="background-image: url(img/trash/trash1.png);" class="active"  data-tooltip="Papel"></a>
                             <a href="#" data-id="2" style="background-image: url(img/trash/trash2.png);" class=""  data-tooltip="Vidro"></a>
-                            <a href="#" data-id="3" style="background-image: url(img/trash/trash3.png);" class=""  data-tooltip="Plástico"></a>
+                            <a href="#" data-id="3" style="background-image: url(img/trash/trash3.png);" class="active"  data-tooltip="Plástico"></a>
                             <a href="#" data-id="4" style="background-image: url(img/trash/trash4.png);" class=""  data-tooltip="Metal"></a>
                             <a href="#" data-id="5" style="background-image: url(img/trash/trash5.png);" class=""  data-tooltip="Roupas"></a>
                             <a href="#" data-id="6" style="background-image: url(img/trash/trash6.png);" class=""  data-tooltip="Celular"></a>
                             <a href="#" data-id="7" style="background-image: url(img/trash/trash7.png);" class=""  data-tooltip="Resíduos Perigosos"></a>
                             <a href="#" data-id="8" style="background-image: url(img/trash/trash8.png);" class=""  data-tooltip="Baterias"></a>
                             <a href="#" data-id="9" style="background-image: url(img/trash/trash9.png);" class=""  data-tooltip="Lampadas"></a>
-                            <a href="#" data-id="10" style="background-image: url(img/trash/trash10.png);" class=""  data-tooltip="Eletrodomésticos">
-                            </a><a href="#" data-id="11" style="background-image: url(img/trash/trash11.png);" class=""  data-tooltip="Tetra Pack">
+                            <a href="#" data-id="10" style="background-image: url(img/trash/trash10.png);" class=""  data-tooltip="Eletrodomésticos"></a>
+                            <a href="#" data-id="11" style="background-image: url(img/trash/trash11.png);" class=""  data-tooltip="Tetra Pack">
                             </a>			
                         </div>
                         
@@ -214,6 +232,7 @@
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
     
 </body>
 </html>
