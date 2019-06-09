@@ -1,76 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" sizes="16x16 32x32" type="image/jpg">
     <title>Sobre</title>
 </head>
+
 <body>
-        <header>
-                <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 rounded">
-                    <div class="col-md-4">
-                        <a class="navbar-brand align-self-start" href="#">
-                            <img src="img/logo_lado.png" class="logoMargin" width="200" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <ul class="nav marginHeader justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active grow efeitoTransicao" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="sobre.html">Sobre nós</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="loja.html">Loja</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="contato.html">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" href="mapa.html">Mapa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="#">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <header>
+        <nav class="navbar navbar-light bg-white active shadow p-3 mb-0 ">
+            <div class="col-md-4">
+                <a class="navbar-brand align-self-start" href="#">
+                    <img src="img/logo_lado.png" class="logoMargin" width="200" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav marginHeader justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active grow efeitoTransicao" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="sobre.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="loja.html">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" href="mapa.html">Mapa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link grow efeitoTransicao" data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@mdo" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <form>
-                            <div class="form-group">
+                            <div class="form-group" class="form-inline">
                                 <label for="recipient-name" class="col-form-label">Usuário:</label>
                                 <input type="text" class="form-control" id="recipient-name">
+                                <div class="form-inline">
+                                    <input type="checkbox" class="form-control" id="input-remember-user">
+                                    <label class="col-form-label" id="label-remember-user"> Lembrar usuário</label>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Senha:</label>
                                 <input type="password" class="form-control" id="password"></input>
+                                <a href="#">Esqueceu a senha?</a>
                             </div>
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
-                        <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
+                        <button type="submit" class="btn btn-success" data-dismiss="modal"
+                            id="btn-login">Acessar</button>
+                        <a class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCadastro"
+                            data-whatever="@mdo" href="#">Ainda não tem cadastro?</a>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="modal fade" id="exampleModalCadastro" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content-usuario">
+                        <div class="modal-header" class="bg-success">
+                            <h5 class="modal-title" id="exampleModalCadastro">Cadastro de Usuário:</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Nome completo:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                                    <input type="email" class="form-control" id="recipient-name"
+                                        placeholder="email@email.com.br">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Endereço:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Número:</label>
+                                    <input type="number" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Complemento:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">CEP:</label>
+                                    <input type="number" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Cidade:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">UF:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Usuário:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Senha:</label>
+                                    <input type="password" class="form-control" id="password"></input>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Repetir senha:</label>
+                                    <input type="password" class="form-control" id="password"></input>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success" id="btn-cadastro-usuario"
+                                data-dismiss="modal">Cadastrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </header>
 
+<<<<<<< HEAD
   
 <section class="container-fluid">
 <div class="row sobre">
@@ -116,69 +195,134 @@
         <li class="footer-logo-size">
                 <img src="img/logo_branco.png" width="200" alt="">
         </li>  
+=======
+    <section class="container-fluid">
+        <div class="row sobre">
+            <div class="col-md-6 foto">
+                <img src="img/salveo planeta.png" class="img-fluid">
+            </div>
+            <article class="col-md-6 texto">
+                <h1 id="margem">Quem Somos</h1>
+                <h3 class="space">Visão</h3>
+                <p>A Reeduca, por sua atitude empresarial e pela qualidade das relações que busca desenvolver com os
+                    diversos agentes que articula, expressa sua marca na identidade com pessoas e empresas que se
+                    comprometem a atuar de maneira efetiva na colaboração por um mundo mais saudável para se habitar, em
+                    respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>
+                <h3 class="space">Missão</h3>
+                <p>Nosso compromisso é criar e oferecer conteúdo, serviços e produtos que contribuam para a ampliação da
+                    consciência dos indivíduos em suas ações de consumo rumo a uma relação mais equilibrada e harmoniosa
+                    consigo mesmo, com o outro e com o meio ambiente do qual fazem parte através do fomento a
+                    iniciativas orientadas a minimizar e eliminar as substâncias sabidamente nocivas à saúde dos
+                    sistemas biológicos e ecológicos em sua preservação.</p>
+                <h3 class="space">Valores</h3>
+                <p>Acreditamos na capacidade das pessoas e empresas para, na dinâmica de suas relações, promoverem
+                    alternativas e adotarem escolhas que contribuam para o desenvolvimento de uma sociedade sustentável,
+                    alcançável através do desenvolvimento de um padrão de consumo - legítimo anseio de todo ser humano –
+                    de maior qualidade, sobretudo através de práticas que contribuam para a uma conduta ambientalmente
+                    responsável.</p>
+            </article>
+>>>>>>> d35ba61739c7628984b1d4b1a846783d475b3812
         </div>
 
-        <div class="col-md-9">
-              <ul class="nav marginFooter">                  
-                  <li class="nav-item" >
-                      <a class="nav-link active menu-footer" href="index.html">Home</a>
-                      <a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
-                      <a class="nav-link active menu-footer" href="#">Loja</a>
-                  </li>
-                  <li class="nav-item" >
-                      <a class="nav-link active menu-footer" href="#">Links</a>
-                      <a class="nav-link active menu-footer" href="FAQ.html">FAQ</a> 
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active menu-footer" href="contato.html">Contato</a>
-                  </li>
 
-                  <div class="col-md-2 text-primary div-icones" >
-                    <ul class="ul-icones-footer ">
-                        <li class="nav-link active icones-footer">
-                            <a href="https://twitter.com/reeducarecicla" target="_blank">
-                                <i class="fab fa-twitter text-white"> </i>   
-                            </a>
-                        </li>
+    </section>
+    <div class="recycle-feeds">
+        <div class="container no-gutters">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="recycle-icon fade-in-up ">
+                        <i class="fa fa-recycle img-circle"></i>
+                    </div>
+                    <p id="frase">
+                        "Recicle sempre, para um mundo melhor"
 
-                        <li class="nav-link active icones-footer">
-                            <a href="https://facebook.com/reeducarecicla" target="_blank">
-                                <i class="fab fa-facebook text-white"> </i>
-                            </a>
-                        </li> 
-                        <li class=" nav-link active icones-footer">
-                            <a href="http://instagram.com/reeducarecicla" target="_blank">
-                                <i class="fab fa-instagram text-white"> </i>
-                            </a>
-                        </li>
-                    </ul>
+                    </p>
                 </div>
-                  <li class="nav-item newsletter">
-                     <label class="form-control newsletter-footer"> Assine nossa Newsletter!</label>                
+
+            </div>
+        </div>
+    </div>
+
+    <!-- inicio footer -->
+
+    <footer>
+        <nav class="nav nav-fill" id="footer-recicla">
+
+            <div class="col-md-2">
+                <li class="footer-logo-size">
+                    <img src="img/logo_branco.png" width="200" alt="">
+                </li>
+            </div>
+
+            <div class="col-md-9">
+                <ul class="nav marginFooter">
+                    <li class="nav-item">
+                        <a class="nav-link active menu-footer" href="index.html">Home</a>
+                        <a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
+                        <a class="nav-link active menu-footer" href="#">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active menu-footer" href="#">Links</a>
+                        <a class="nav-link active menu-footer" href="FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active menu-footer" href="contato.html">Contato</a>
+                    </li>
+
+                    <div class="col-md-2 text-primary div-icones">
+                        <ul class="ul-icones-footer ">
+                            <li class="nav-link active icones-footer">
+                                <a href="https://twitter.com/reeducarecicla" target="_blank">
+                                    <i class="fab fa-twitter text-white"> </i>
+                                </a>
+                            </li>
+
+                            <li class="nav-link active icones-footer">
+                                <a href="https://facebook.com/reeducarecicla" target="_blank">
+                                    <i class="fab fa-facebook text-white"> </i>
+                                </a>
+                            </li>
+                            <li class=" nav-link active icones-footer">
+                                <a href="http://instagram.com/reeducarecicla" target="_blank">
+                                    <i class="fab fa-instagram text-white"> </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="nav-item newsletter">
+                        <label class="form-control newsletter-footer"> Assine nossa Newsletter!</label>
                         <div class="input-group newsletter-email">
+<<<<<<< HEAD
                              <input class="form-control" type="email" placeholder="email@email.com.br"> </input>
                              <span class="input-group-btn "> 
                              <button class="btn btn-success" class="btn-newsletter" type="submit">Assine agora</button>
                           </span>
+=======
+                            <input class="form-control" type="email" placeholder="email@email.com.br"> </input>
+                            <span class="input-group-btn ">
+                                <button class="btn" class="btn-newsletter" type="submit">Assine agora</button>
+                            </span>
+>>>>>>> d35ba61739c7628984b1d4b1a846783d475b3812
                         </div>
-                  </li>
-              </ul>
-          </div>
-    </nav> 
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-      <section class="container-fluid" id="foot5">
-          <h4 class="text-center" id="footer-copyrights">Copyrights © 2019 ReeducaRecicla</h4>
-      </section>
-</footer>
+        <section class="container-fluid" id="foot5">
+            <h4 class="text-center" id="footer-copyrights">Copyrights © 2019 ReeducaRecicla</h4>
+        </section>
+    </footer>
 
-<!-- fim footer -->
+    <!-- fim footer -->
 
 
-                <script src="js/jquery.js"></script>
-                <script src="js/bootstrap.bundle.js"></script>
-                <script src="js/bootstrap.bundle.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="https://kit.fontawesome.com/1555d36d55.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1555d36d55.js"></script>
 
 </body>
+
 </html>

@@ -45,6 +45,7 @@
                 </ul>
             </div>
         </nav>
+
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -57,25 +58,96 @@
                     </div>
                     <div class="modal-body">
                         <form>
-                            <div class="form-group">
+                            <div class="form-group" class="form-inline">
                                 <label for="recipient-name" class="col-form-label">Usuário:</label>
                                 <input type="text" class="form-control" id="recipient-name">
+                                <div class="form-inline">
+                                    <input type="checkbox" class="form-control" id="input-remember-user">
+                                    <label class="col-form-label" id="label-remember-user"> Lembrar usuário</label>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Senha:</label>
                                 <input type="password" class="form-control" id="password"></input>
+                                <a href="#">Esqueceu a senha?</a>
                             </div>
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Acessar</button>
-                        <a href="modal_cadastro_usuario.html" class="btn btn-primary">Esqueceu a senha?</a>
+                        <button type="submit" class="btn btn-success" data-dismiss="modal"
+                            id="btn-login">Acessar</button>
+                        <a class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCadastro"
+                            data-whatever="@mdo" href="#">Ainda não tem cadastro?</a>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="modal fade" id="exampleModalCadastro" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content-usuario">
+                        <div class="modal-header" class="bg-success">
+                            <h5 class="modal-title" id="exampleModalCadastro">Cadastro de Usuário:</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Nome completo:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                                    <input type="email" class="form-control" id="recipient-name"
+                                        placeholder="email@email.com.br">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Endereço:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Número:</label>
+                                    <input type="number" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Complemento:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">CEP:</label>
+                                    <input type="number" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Cidade:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">UF:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Usuário:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Senha:</label>
+                                    <input type="password" class="form-control" id="password"></input>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Repetir senha:</label>
+                                    <input type="password" class="form-control" id="password"></input>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success" id="btn-cadastro-usuario"
+                                data-dismiss="modal">Cadastrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </header>
-    
 
 
 
