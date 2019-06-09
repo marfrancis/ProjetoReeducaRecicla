@@ -114,10 +114,7 @@ h1.h1FAQ {
     margin-top: 20px;
 }
 
-.cor-card {
-    /* background-color: #798b41; */
-    /* color: white; */
-}
+
 
 .loja-anuncio {
     margin-bottom: 20px;
@@ -187,13 +184,7 @@ div.foto{
     padding: 0;
 }
 
-.contato-banner {
-  /* background-image: url('/img/banner.jpg');
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover; */
 
-}
 
 .text-primary {
     font-weight: 600;
