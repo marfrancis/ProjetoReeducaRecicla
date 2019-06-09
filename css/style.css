@@ -131,6 +131,15 @@ h1.h1FAQ {
     margin-bottom: 30px;
 }
 
+.acesso-mapa {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto2-mapa {
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -161,6 +170,11 @@ div.foto{
 
 #margem{
     margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+.space {
+    margin-bottom: 20px;
 }
 
 /* Fim configuração sobre nos */
@@ -281,6 +295,10 @@ p#frase {
     margin-top: 5px;
 }
 
+.card-banner {
+    border: none;
+}
+
 /* Fim configuração Contato */
 
 
@@ -331,6 +349,14 @@ p#frase {
     font-size: 17px;
     line-height: normal;
     font-family: 'Poppins', sans-serif;
+}
+
+
+
+.botao-pesquisa {
+    background: #454853;
+    border: none;   
+
 }
 
 /* Fim configuração mapa */
@@ -439,19 +465,198 @@ p#frase {
 
 /* Inicio configuração interna produto*/
 
-/* Fim configuração interna produto*/
-
-/* Configuracoes gerais loja */
-
-.bg-preto {
-    background-color: #333333
+.border-carousel {
+    border: 1px solid rgba(0, 255, 0, 0.5)
 }
 
-.imgProduto{
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
+.btn-comprar {
+    margin-right: 200px;
 }
+
+.price  {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00A26A;
+
+}
+
+.shop_item .entry {
+    position: relative;
+}
+.shop_item .entry {
+    border: 1px solid #e8e8e8;
+}
+
+.row .shop_item {
+    min-height: auto!important;
+    height: auto!important;
+}
+.shop_item {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.shop_item {
+    margin-bottom: 20px;
+}
+
+    
+
+
+
+.cart_table img {
+    margin-right:10px;
+}
+
+
+div.thumbnails{
+    padding-top:10px;
+    zoom:1
+}
+div.thumbnails .entry {
+    border:1px solid #ffffff;
+    float:left;
+    width:100%;
+    margin-right:4.9%
+}
+div.thumbnails .magnifier .buttons {
+    top:40%;
+}
+.top-toolbar .pagination_wrapper{display:none;}
+.bottom-toolbar .amount,.bottom-toolbar .limiter{display:none;}
+.btn-shop .form-control:focus {
+    box-shadow:none;
+}
+.btn-shop .form-control {
+    width:45px;
+    border-radius:0;
+    background: #EFEFEF;
+    border-color: #DDDDDD;
+    height:34px !important;
+    text-align: center;
+    margin:0;
+    padding: 6px 0px;
+    padding-right:0;
+}
+#buddypress_features .nav li,
+#shop_features .nav li {
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
+} 
+#buddypress_features,
+#shop_features {
+    padding:40px 0;
+    margin:0;
+    overflow:hidden;
+}
+.tabbable .nav-tabs {
+    background: #E1E1E1;
+    border: 1px solid #D7D7D7 !important;
+}
+#buddypress_features .nav-tabs{
+    background:  #222;
+    border:none;
+}    
+#shop_features .nav-tabs {
+    height: 50px;
+    background:  #00A26A;
+    border: 1px solid #DDDDDD;
+}
+#buddypress_features .nav-tabs > li > a,
+#custom_tab .nav-tabs > li > a,
+#shop_features .nav-tabs > li > a {
+    
+    border-radius:0;
+    border-bottom: 1px solid #DDDDDD;
+    line-height:2.1;
+}
+
+.titulo-prod {
+    background-color: black;
+    color: white;
+    padding: 13px;
+}
+
+
+#buddypress_features .tab-content,
+#custom_tab .tab-content,
+#shop_features .tab-content {
+    padding:20px; 
+    border-bottom:1px solid #DDDDDD !important; 
+    border-right:1px solid #DDDDDD !important; 
+    border-left:1px solid #DDDDDD !important;
+    overflow:hidden;
+}
+#buddypress_features .nav-tabs > li > a{
+    color:#fff !important;
+    border:none !important;
+}
+#buddypress_features .nav i {
+    text-align:center;
+    display:block;
+    font-size:24px;
+}
+#custom_tab .tab-content ul li,
+#shop_features .tab-content ul li {
+    list-style:square;
+}
+#custom_tab .tab-content ul,
+#shop_features .tab-content ul { 
+    padding:0 0 10px 20px
+}
+.btn-shop span {
+    background: #00A26A;
+    -moz-user-select: none;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin: 0px -17px 0px 2px;
+    color: #FFFFFF;
+    padding: 7px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.shop_item_details ul {
+    padding-left:0;
+    margin:15px 0;
+    overflow:hidden;
+}
+.shop_item_details strong {
+    color:#181818;
+    padding-right:10px;
+}
+.shop_item_details ul li {
+    list-style:none;
+    margin:0 0 12px;
+}
+.shop-right .title h2,.shop-right .title h1 {
+    margin-bottom:5px;
+    padding-bottom:0;
+    font-size:22px;
+}
+.shop-right .title .rating {
+    margin-bottom:12px;
+    margin-top:8px;
+}
+.shop_item {
+    margin-bottom:20px;
+}
+.shop_item .magnifier .buttons {
+    top:38%;
+    margin-top:0 !important;
+}
+
+
+
+
 
 a.efeitoTransicaoLoja {
     color: limegreen;
