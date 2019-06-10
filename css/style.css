@@ -358,10 +358,10 @@ p#frase {
 /*Início Configuração Footer*/
 
 #footer{
-    background: #1caa09;
+    background: #080808;
     padding-top:30px;
     padding-bottom:30px;
-    font-size: 1.3em;
+    font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -387,7 +387,7 @@ p#frase {
 }
 
 #foot5{
-    background-color:  #209710;
+    background-color: #080808; 
 }
 
 .nav-item-redes-sociais{
@@ -400,7 +400,8 @@ p#frase {
 }
 
 #footer-copyrights{
-    color:white;    
+    color:white; 
+    font-size: 0.9rem;   
 }
 
 .ul-icones-footer{
