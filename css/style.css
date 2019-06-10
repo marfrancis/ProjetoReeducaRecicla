@@ -357,12 +357,12 @@ p#frase {
 
 /*Início Configuração Footer*/
 
-#footer{
-    background: #080808;
+.rodape{
+    background: #333333;
     padding-top:30px;
     padding-bottom:30px;
-    font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
 }
 
 .nav-item-newsletter{
@@ -372,6 +372,7 @@ p#frase {
 
 .div-icones{
     margin-right:20px;
+  
 }
 .newsletter-footer{
     width: 350px;
@@ -387,7 +388,7 @@ p#frase {
 }
 
 #foot5{
-    background-color: #080808; 
+    background-color: #333333;
 }
 
 .nav-item-redes-sociais{
@@ -401,7 +402,7 @@ p#frase {
 
 #footer-copyrights{
     color:white; 
-    font-size: 0.9rem;   
+    font-size: 0.8rem;   
 }
 
 .ul-icones-footer{
@@ -411,6 +412,11 @@ p#frase {
     list-style: none;
     width:140px;
     margin-right:0;
+}
+
+.icones-footer{
+    width:60px;
+    font-size: 25px;
 }
 
 /* Inicio configuração formulario de login */
