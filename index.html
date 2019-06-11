@@ -53,7 +53,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="botaoFecharLogin">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -78,7 +78,7 @@
                         <button type="submit" class="btn btn-success" data-dismiss="modal"
                             id="btn-login">Acessar</button>
                         <a class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCadastro"
-                            data-whatever="@mdo" href="#">Ainda não tem cadastro?</a>
+                            data-whatever="@mdo" id="botaoAbrirCadastro" href="#">Ainda não tem cadastro?</a>
                     </div>
                 </div>
             </div>
@@ -154,40 +154,58 @@
 
     <!-- inicio banner -->
 
-    <main class="container-fluid no-gutters main-pag-home">
-
-        <div class="card card-principal">
-            <img class="card-img-top img-fluid" src="img/mapa.jpg" alt="">
-            <div class="card-body bg-success cor-card">
-                <h5 class="card-title mapa-home">Mapa Interativo</h5>
-                <p class="card-text texto-card-home-mapa">Você pode ajudar o planeta com uma ação simples - use o mapa
-                    interativo do Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira
-                    simples: insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas
-                    proximidades. O sistema de feedback ajuda a classificar as estações de reciclagem e identificar as
-                    melhores. Então, vá em frente! Dê às coisas uma segunda chance!.</p>
-                <div class="row">
-                    <div class="col-md-6 texto2-mapa">
-                        <h3>Saiba onde descartar seus resíduos</h3>
-                        <p>Encontre postos de reciclagem e doação mais próximos de você</p>
-                    </div>
-                    <div class="col-md-6 acesso-mapa">
-                        <label for="">Clique aqui para fazer sua busca:</label><a href="mapa.html">
-                            <input name="" id="" class="btn btn-primary" type="button" value="Acessar o Mapa"></a>
+    <section class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-md-4 ">
+                <div class="card border-success  card1-home style="width: 13rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Mapa Interativo</h5>
+                        <p class="card-text">Você pode ajudar o planeta com uma ação simples - use o mapa interativo do Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira simples: insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas proximidades.</p>
+                        <h5>Saiba onde descartar seus resíduos</h5>
+                        <p></p>
+                        <a href="mapa.html" class="btn btn-success btn-card">Acessar o Mapa</a>
                     </div>
                 </div>
             </div>
 
+            <div class="col-md-4 ">
+                <div class="card border-success  card1-home style="width: 13rem;">
+                    <div class="card-body">
+                        <img src="img/imgcardhome.jpg" alt="" class="img-fluid">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 ">
+                <div class="card border-success card1-home style="width: 13rem;">
+                    <div class="card-body bg-success text-white">
+                        <h5 class="card-title">Reeduca Recicla</h5>
+                        <p class="card-text"></p>
+                        <p>Acreditamos na capacidade das pessoas e empresas de adotarem escolhas que contribuam para o desenvolvimento de uma sociedade sustentável, com relações de consumo de maior qualidade e práticas ambientalmente responsáveis.</p>
+                        <p>No portal, o internauta encontra serviços como um Sistema de Busca de postos de coleta para mais de 12 tipos de resíduos</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+            
         </div>
+        
+    </section>
+       
 
         <!-- fim banner -->
-
+    <main class="container-fluid ">
         <!-- inicio reciclagem divulgaçao -->
 
-        <div class="row no-gutters">
+        <div class="row no-gutters recicla-texto">
             <div class="col-md-6 img-texto">
                 <img src="img/porquereciclar.png" class="img-fluid " alt="Por que reciclar?">
             </div>
             <div class="col-md-6 texto-info-home">
+                <article>
                 <h1 class="titulo-card-home">Por que reciclar ?</h1>
                 <p class="texto-card-home">Conforme a população do planeta aumenta, cresce também a quantidade de lixo
                     produzido. Porém, ao longo das décadas, foram descobertas novas maneiras de reaproveitar estes
@@ -207,20 +225,18 @@
                     madeira: até mesmo o óleo de cozinha pode ser reciclado e transformado em sabão. Sem contar o lixo
                     orgânico, que pode se tornar compostagem (adubo orgânico), fortificando o solo e ajudando a reter
                     umidade.</p>
+                </article>
             </div>
         </div>
+    </main>
 
         <!-- fim reciclagem divulgação -->
 
-
+        <main class="container-fluid no-gutters main-pag-home">
 
         <!-- inicio propaganda loja -->
-        <div class="jumbotron loja-anuncio">
-            <h1 class="display-4 loja-anuncio-titulo">Conheça nossa loja virtual!</h1>
-
-
-
-            <a class="btn btn-success btn-lg" href="loja.html" role="button">Acessar</a>
+        <div class="jumbotron jumbotron-fluid loja-anuncio mt-4">
+           <a class="btn btn-success btn-lg botao-loja-home" href="loja.html" role="button">Acessar</a>
         </div>
 
         <!-- fim propaganda loja -->
@@ -337,7 +353,6 @@
         </section>
     </footer>
     <!-- fim footer -->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
