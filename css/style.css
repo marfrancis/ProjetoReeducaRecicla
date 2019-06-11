@@ -146,6 +146,10 @@ h1.h1FAQ {
 
 
 /* Inicio configuração sobre nos */
+div.sobre{
+    text-align: left;
+   
+}
 
 article.texto{
     margin-top: 10px;
