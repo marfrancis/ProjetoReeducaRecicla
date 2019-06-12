@@ -466,7 +466,6 @@ p#frase {
 }
 
 .modal-content-login{
-    background-color: rgba(36, 230, 36, 0.6);
     color:white;
 }
 
@@ -477,11 +476,19 @@ p#frase {
 /* Inicio configuração formulario de cadastro */
 
 
-
-.modal-content-usuario{
-    background-color: rgba(36, 230, 36, 0.6);
+.content-usuario{
+    background-color: #28a745;
     color: white;
-    border-radius: 10px;
+    border-radius: 9px;
+}
+
+.dialogUsuario{
+    overflow-y:initial; 
+}
+
+.bodyUsuario{
+    height: 400px;
+    overflow-y: auto;
 }
 
 
