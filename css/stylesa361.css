@@ -179,9 +179,10 @@
 	position: relative;
 }
 .trash_type .type_item a {}
+/* css para criar o tooltip personalizado */
 .trash_type .type_item .custom-tooltip {
 	position: absolute;
-	top: 0px;
+	bottom: 20px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	font-size: 14px;
@@ -192,10 +193,12 @@
 	opacity: 0;
 	transition: all 0.3s ease 0s;
 }
+/* efeito de aparecimento */
 .trash_type .type_item:hover .custom-tooltip {
-	top: -30px;
+	bottom: 60px;
 	opacity: 1;
 }
+/* adiciona a setinha do balão */
 .trash_type .type_item .custom-tooltip::after {
 	display: block;
 	content: " ";
@@ -229,13 +232,11 @@
 	vertical-align:top;
 	width: 53px;
 	height: 53px;
-
 	margin: 5px 4px;
 	text-align:center;
 	-webkit-border-radius: 27px;
 	-moz-border-radius: 27px;
 	border-radius: 27px;
-	
 	background-position: 0px 0px;
 }
 .trash_type a{

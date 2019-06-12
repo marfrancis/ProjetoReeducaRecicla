@@ -1,46 +1,31 @@
 <?php 
+/////////////////////////////////////////
+// parâmetros de entrada da requisição //
+// $_GET['categoria'];                 //
+// $_GET['cidade'];                    //
+/////////////////////////////////////////
 
-// $_GET['categoria'];
-// $_GET['cidade'];
-
+//////////////////////////////////////////////////////////////////////////////
+// caso não seja ionformada nenhuma categoria, então retorna um vetor vazio //
+//////////////////////////////////////////////////////////////////////////////
 if(!isset($_GET['categoria']) || strlen($_GET['categoria']) == 0) die( json_encode([]) );
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// retorna um json estático com os marcadores, posteriormente deverá retornar do banco de dados com base na cidade e ids das categorias selecionadas //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 echo json_encode([
 	[
 		'latitude' => '-23.605895',
 		'longitude' => '-46.563433',
-		'nome' => 'Assaí São Caetano do Sul',
-		'endereco' => 'R. Dr. Francisco Mesquita, 1000, Vila Industrial, Santo André / SP',
+		'nome' => 'São Caetano',
+		'endereco' => 'Rua ABC, 123, Bairro, Cidade / UF',
 		'telefone' => '(11) 4444-4444'
 	],
 	[
-		'latitude' => '-23.607518',
-		'longitude' => '-46.562430',
-		'nome' => 'Assaí São Caetano do Sul',
-		'endereco' => 'R. Dr. Francisco Mesquita, 1000, Vila Industrial, Santo André / SP',
-		'telefone' => '(11) 4444-4444'  , 
-	],
-	[
-		'latitude' => '-23.606525',
-		'longitude' => '-46.564221',
-		'nome' => 'Assaí São Caetano do Sul',
-		'endereco' => 'R. Dr. Francisco Mesquita, 1000, Vila Industrial, Santo André / SP',
-		'telefone' => '(11) 4444-4444'  
-	],
-	[
-		'latitude' => '-23.607006',
-		'longitude' => '-46.567590',
-		'nome' => 'Assaí São Caetano do Sul',
-		'endereco' => 'R. Dr. Francisco Mesquita, 1000, Vila Industrial, Santo André / SP',
-		'telefone' => '(11) 4444-4444' , 
-	],
-	[
-		'latitude' => '-23.607783',
-		'longitude' => '-46.566410',
-		'nome' => 'Assaí São Caetano do Sul',
-		'endereco' => 'R. Dr. Francisco Mesquita, 1000, Vila Industrial, Santo André / SP',
-		'telefone' => '(11) 4444-4444' 
+		'latitude' => '-23.608490',
+		'longitude' => '-46.566094',
+		'nome' => 'São Caetano',
+		'endereco' => 'Rua ABC, 123, Bairro, Cidade / UF',
+		'telefone' => '(11) 4444-4444'
 	],
 ]);
-
-
