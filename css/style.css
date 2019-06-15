@@ -388,6 +388,7 @@ p#frase {
     padding-bottom:30px;
     font-size: 0.9rem;
     font-family: 'Poppins';
+    margin-bottom: 0;
 }
 
 .nav-item-newsletter{
@@ -446,9 +447,13 @@ p#frase {
 
 /* Inicio configuração formulario de login */
 
-#input-remember-user{
+#remember-user{
     width:20px;
     height: 20px;
+}
+
+#remember-user-text{
+    padding: 10px;
 }
 
 .formNewsLetter {
@@ -477,10 +482,12 @@ p#frase {
 
 
 .content-usuario{
-    background-color: #28a745;
-    color: white;
+    color:black;
+    background-color: white;
     border-radius: 9px;
+    width:600px;
 }
+
 
 .dialogUsuario{
     overflow-y:initial; 
