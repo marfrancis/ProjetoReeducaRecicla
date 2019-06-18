@@ -28,4 +28,18 @@ echo json_encode([
 		'endereco' => 'Rua ABC, 123, Bairro, Cidade / UF',
 		'telefone' => '(11) 4444-4444'
 	],
+	[
+		'latitude' => '-23.607895',
+		'longitude' => '-46.563433',
+		'nome' => 'São Caetano',
+		'endereco' => 'Rua ABC, 123, Bairro, Cidade / UF',
+		'telefone' => '(11) 4444-4444'
+	],
+	[
+		'latitude' => '-23.609490',
+		'longitude' => '-46.566094',
+		'nome' => 'São Caetano',
+		'endereco' => 'Rua ABC, 123, Bairro, Cidade / UF',
+		'telefone' => '(11) 4444-4444'
+	],
 ]);
