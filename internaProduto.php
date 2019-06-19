@@ -6,7 +6,7 @@
 <body>
 
     <!-- inicio cabeçalho -->
-    <?php include_once "header.php"; ?>       
+    <?php include_once "headerLoja.php"; ?>       
 
 
     <!-- fim cabeçalho -->
