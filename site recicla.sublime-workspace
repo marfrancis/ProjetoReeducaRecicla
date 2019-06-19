@@ -302,16 +302,16 @@
 		"selected_items":
 		[
 			[
+				"close",
+				"Project: Close"
+			],
+			[
 				"syphp",
 				"Set Syntax: PHP"
 			],
 			[
 				"contabs",
 				"Indentation: Convert to Tabs"
-			],
-			[
-				"close",
-				"Project: Close"
 			],
 			[
 				"reind",
