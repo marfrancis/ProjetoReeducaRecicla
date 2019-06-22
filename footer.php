@@ -30,7 +30,7 @@
                   </li>
                   <li class="nav-item" >
                       <a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
-                      <a class="nav-link active menu-footer" href="FAQ.html">FAQ</a> 
+                      <a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
                   </li>
                   <li class="nav-item">
                       <a class="nav-link active menu-footer" href="contato.html">Contato</a>
