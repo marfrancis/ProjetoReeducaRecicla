@@ -9,7 +9,7 @@
         <?php include_once "header.php" ?>
     <div class="container">
         <div class="row justify-content-center mt-5">
-            <div class="col-md-9">
+            <div class="col-md-9 col-sm-9 col-xs-9 col-lg-9">
                 <h1 class="h1FAQ">PERGUNTAS MAIS FREQUENTES (FAQ)</h1>
             </div>
         </div>

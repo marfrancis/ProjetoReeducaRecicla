@@ -1,11 +1,28 @@
 	<footer>    
 		<nav class="nav nav-fill rodape">
 
+<<<<<<< HEAD
 			<div class="col-md-2"> 
 				<li class="footer-logo-size">
 					<img src="img/logo_branco.png" width="200" alt="">
 				</li>  
 			</div>
+=======
+        <div class="col-md-9">
+              <ul class="nav marginFooter">                  
+                  <li class="nav-item" >
+                      <a class="nav-link active menu-footer" href="index.html">Home</a>
+                      <a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
+                      <a class="nav-link active menu-footer" href="loja.html">Loja</a>
+                  </li>
+                  <li class="nav-item" >
+                      <a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
+                      <a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active menu-footer" href="contato.html">Contato</a>
+                  </li>
+>>>>>>> 6743ec726909ef3377fff5595cf3b32cc89bcdcc
 
 			<div class="col-md-9">
 				<ul class="nav marginFooter">                  
