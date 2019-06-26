@@ -3,8 +3,8 @@
 <?php include_once "head.php" ?>
 <body>
 <?php include_once "header.php"; ?>
-<form>
-<div class="container cadastro">
+<form class=" estruturaForm m-5">
+<div class="container border rounded p-3">
 <div class="form-row">
     <div class="form-group col-md-6">
       <label for="nameCadastro">Nome</label>
@@ -68,7 +68,7 @@
     
     
   </div>
-  <button type="submit" class="btn btn-secpndary">Finalizar cadastro!</button>
+  <button type="submit" class="btn btn-success">Finalizar cadastro!</button>
   </div>
 </form>
 <?php include_once "footer.php"?>

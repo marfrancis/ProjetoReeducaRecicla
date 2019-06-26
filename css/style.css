@@ -480,6 +480,11 @@ p#frase {
 
 /* Inicio configuração formulario de cadastro */
 
+.paginaCadastro{
+    border: solid 0.5px lightgray;
+    }
+
+
 .content-usuario{
     color:black;
     background-color: white;
