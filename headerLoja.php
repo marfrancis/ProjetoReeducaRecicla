@@ -8,16 +8,16 @@
                     <div class="col-md-8">
                         <ul class="nav marginHeader justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link active grow efeitoTransicaoLoja" href="index.html">Home</a>
+                                <a class="nav-link active grow efeitoTransicaoLoja" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicaoLoja" href="sobre.html">Sobre nós</a>
+                                <a class="nav-link grow efeitoTransicaoLoja" href="sobre.php">Sobre nós</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicaoLoja" href="loja.html">Loja</a>
+                                <a class="nav-link grow efeitoTransicaoLoja" href="loja.php">Loja</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link grow efeitoTransicaoLoja" href="contato.html">Contato</a>
+                                <a class="nav-link grow efeitoTransicaoLoja" href="contato.php">Contato</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link grow efeitoTransicaoLoja" href="mapa.html">Mapa</a>

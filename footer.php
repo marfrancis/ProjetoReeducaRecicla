@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    
-    
-    <title>Footer</title>
-</head>
-<body>
 <footer>    
     <nav class="nav nav-fill rodape">
    
@@ -30,7 +16,7 @@
                   </li>
                   <li class="nav-item" >
                       <a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
-                      <a class="nav-link active menu-footer" href="FAQ.html">FAQ</a> 
+                      <a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
                   </li>
                   <li class="nav-item">
                       <a class="nav-link active menu-footer" href="contato.html">Contato</a>
@@ -74,10 +60,25 @@
       </section>
 </footer>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+	<?php if (strpos($_SERVER['HTTP_USER_AGENT'], "Google Page Speed Insights") === false): ?>
+		<!-- O que tiver aqui dentro o page speed do Google não consegue ver -->
+	<?php endif ?>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="css/dropdown.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/stylesa361.css?ver=2.3" rel="stylesheet" type="text/css" />
+	<link href="css/beta-popup.css" rel="stylesheet" type="text/css" />
+
+
+	<!-- <script src="js/jquery.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
+

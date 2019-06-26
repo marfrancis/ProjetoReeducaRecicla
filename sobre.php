@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <?php
-include_once "head.php"
+$root = 'http://localhost/projetoreeducarecicla/';
+$foto = 'salveo%20planeta.png';
+
+$title = $facebook_title = "Sobre Nós";
+$keywords = 'recicla,palavras,chave,separadas,por,virgula';
+$description = $facebook_description = substr(strip_tags('<p>A Reeduca, por sua atitude empresarial e pela qualidade das relações que busca desenvolver com os diversos agentes que articula, expressa sua marca na identidade com pessoas e empresas que se comprometem a atuar de maneira efetiva na colaboração por um mundo mais saudável para se habitar, em respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>'), 0, 200);
+$facebook_image = htmlentities($root . 'img/' . $foto);
+include_once "head.php";
 ?>
 <body>
-<?php
-include_once "header.php"
-?>
-<section class="container-fluid">
-    <div class="row sobre">
-        <div class="col-md-6 foto">
-            <img src="img/salveo planeta.png" class="img-fluid">
-        </div>
+    <?php
+    include_once "header.php"
+    ?>
+    <section class="container-fluid">
+        <div class="row sobre">
+            <div class="col-md-6 foto">
+                <img src="img/salveo%20planeta.png" class="img-fluid" alt="Salve o planeta">
+            </div>
+            
             <article class="col-md-6 texto">
                 <h1 id="margem">Quem Somos</h1>
                 <h3 class="space">Visão</h3>
                 <p>A Reeduca, por sua atitude empresarial e pela qualidade das relações que busca desenvolver com os
                     diversos agentes que articula, expressa sua marca na identidade com pessoas e empresas que se
                     comprometem a atuar de maneira efetiva na colaboração por um mundo mais saudável para se habitar, em
-                    respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>
+                respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>
                 <h3 class="space">Missão</h3>
                 <p>Nosso compromisso é criar e oferecer conteúdo, serviços e produtos que contribuam para a ampliação da
                     consciência dos indivíduos em suas ações de consumo rumo a uma relação mais equilibrada e harmoniosa
                     consigo mesmo, com o outro e com o meio ambiente do qual fazem parte através do fomento a
                     iniciativas orientadas a minimizar e eliminar as substâncias sabidamente nocivas à saúde dos
-                    sistemas biológicos e ecológicos em sua preservação.</p>
+                sistemas biológicos e ecológicos em sua preservação.</p>
                 <h3 class="space">Valores</h3>
                 <p>Acreditamos na capacidade das pessoas e empresas para, na dinâmica de suas relações, promoverem
                     alternativas e adotarem escolhas que contribuam para o desenvolvimento de uma sociedade sustentável,
                     alcançável através do desenvolvimento de um padrão de consumo - legítimo anseio de todo ser humano –
                     de maior qualidade, sobretudo através de práticas que contribuam para a uma conduta ambientalmente
-                    responsável.</p>
+                responsável.</p>
             </article>
         </div>
-
-
-</section>
+    </section>
     <div class="recycle-feeds">
         <div class="container no-gutters">
             <div class="row">
@@ -54,19 +60,4 @@ include_once "header.php"
     </div>
 
     <!-- inicio footer -->
-    <?php
-        include_once "footer.php"
-    ?>
-
-    <!-- fim footer -->
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-
-</body>
-
-</html>
+    <?php include_once "footer.php" ?>
