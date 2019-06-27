@@ -851,6 +851,7 @@ a.efeitoTransicaoLoja:hover {
 @media (max-width: 767px) {
 
     /* Inicio configuracao header burger */
+
     
     .displayQuery {
         display: none;
@@ -867,6 +868,15 @@ a.efeitoTransicaoLoja:hover {
     
       
     /* Fim configuracao header burger */
+
+    /* Inicio configuracao sobre nos */
+
+    .recycle-feeds{
+        display: none;
+    }
+    
+    /* Fim configuracao sobre nos */
+
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
