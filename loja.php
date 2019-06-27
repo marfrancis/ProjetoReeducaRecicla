@@ -8,7 +8,7 @@
     <?php include_once "headerLoja.php"?>
 
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-verde shadow p-3 mb-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-verde shadow p-3">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav marginSubMenu">
                     <li class="nav-item active ">
@@ -35,55 +35,10 @@
             </form>
         </nav>
     </div>
-    <div id="lojaCategorias" class="secao mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mt-3">
-                    <div class="lojaCategorias">
-                        <ul class="categoriasEcomm">
-                            <li>
-                                <div class="liSemBola">
-                                    <img src="img/simbolo-de-reciclagem.png" class="sustLogoLoja" width="50%" alt="">
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3 class="decoracaoTxtLoja"><a class="grow" href="">ROUPAS</a></h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3 class="decoracaoTxtLoja"><a class="grow" href="">MÓVEIS</a></h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3 class="decoracaoTxtLoja"><a class="grow" href="">DECORAÇÃO</a></h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3 class="decoracaoTxtLoja"><a class="grow" href="">DIVERSOS</a></h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="liSemBola">
-                                    <img src="img/simbolo-de-reciclagem.png" class="sustLogoLoja" width="50%" alt="">
-                                </div>
-                            </li>
-                        </ul>
-                        <h2 class="text-uppercase decoracaoH2Loja">Para você que deseja ser sustentável</h2>
-                        <p class=" decoracaoH2Loja">Veja os produtos das nossas lojas parceiras!</p>
-                        <br>
-                        <a class="btn btn-success" href="#">Ver produtos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="container">
         <div class="row">
-            <div class="col-md-12 mt-3 mb-3">
+            <div class="col-md-12 mt-5 mb-3">
                 <h1 class="h1LojaHome">PRODUTOS</h1>
                 <div class="linha"></div>
             </div>
@@ -193,14 +148,33 @@
             </div>
         </div>
     </div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-3 mb-5">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link colorPagination" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                        </li>
+                        <li class="page-item"><a class="page-link colorPagination" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link colorPagination" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link colorPagination" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link colorPagination" href="#">Próxima</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
     <?php include_once "footer.php"?>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-   
+
 </body>
 
 </html>
