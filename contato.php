@@ -46,8 +46,8 @@
                     </div>
 
                     <div class="submit-buttons mb-5">
-                        <button type="submit" class="btn btn-card btn-success">Enviar</button>
-                        <button type="reset" class="btn btn-card btn-primary">Limpar</button>
+                        <button type="submit" class="btn btn-card btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-card btn-secondary">Limpar</button>
                     </div>
                 </form>
             </div>
@@ -62,7 +62,7 @@
 
 
         <!-- Inicio dados contato -->
-        <div class="col-md-4 col-sm-6 col-xs-12 dadosContato"> 
+        <div class="col-md-4 col-sm-6 col-xs-12 dadosContato mb-4"> 
 
             <div class="card">
                 <div class="card-body user-details-contact text-center ">
@@ -78,15 +78,35 @@
                         <ul class="contact-address-list">
                             <li class="email">
                                 <h5><i class="fa fa-envelope text-success"></i> Email</h5>
-                                <p>contato@reeducarecicla.com</p>
+                                <p>
+                                    <a href="mailto:contato@reeducarecicla.com" target="_block">
+                                        <span class="d-block d-sm-none">
+                                            Enviar e-mail
+                                        </span>
+                                        <span class="d-none d-sm-block">
+                                            contato@reeducarecicla.com
+                                        </span>
+                                    </a>
+                                </p>
                             </li>
                             <li class="phone">
                                 <h5><i class="fa fa-phone text-success"></i> Telefone</h5>
-                                <p>(11)99999-1010</p>
+                                <p>
+                                    <a href="tel:(11) 99999-1010">(11) 99999-1010</a>
+                                </p>
                             </li>
                             <li class="address">
                                 <h5><i class="fa fa-map text-success" aria-hidden="true"></i> Endereço</h5>
-                                <p>São Paulo, SP</p>
+                                <p>
+                                    <a href="https://maps.google.com?saddr=Current+Location&daddr=43.12345,-76.12345" target="_blank">
+                                        <span class="d-block d-sm-none">
+                                            Abrir GPS
+                                        </span>
+                                        <span class="d-none d-sm-block">
+                                            São Paulo, SP
+                                        </span>
+                                    </a>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -125,19 +145,3 @@
 <!-- inicio footer -->
 
 <?php include_once "footer.php"; ?>
-
-<!-- fim footer -->
-
-
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-
-
-
-</body>
-
-</html>

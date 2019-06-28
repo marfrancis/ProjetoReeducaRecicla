@@ -12,7 +12,8 @@
 /* Inicio Configuração Header  */
 
 .logoSize {
-    width: 35%
+    max-width: 220px;
+    width: 100%;
 }
 
 a.efeitoTransicao {
@@ -838,6 +839,11 @@ a.efeitoTransicaoLoja:hover {
 
 }
 
+.btn-primary {
+        background-color: #28a745!important;
+    border-color: #28a745!important;
+}
+
 
 
 
@@ -906,3 +912,4 @@ a.efeitoTransicaoLoja:hover {
         display: none;
     }
 }
+

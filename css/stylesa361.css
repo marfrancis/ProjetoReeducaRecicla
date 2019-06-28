@@ -54,10 +54,10 @@
 }
 
 
-.panel {
+.panel.city_panel {
 	position: absolute;
 	left: 2%;
-	top: 200px;
+	top: 100px;
 	bottom: 50px;
 	width: 350px;
 	height: 400px;
@@ -68,21 +68,45 @@
 	overflow: hidden;
 	z-index: 10;
 }
-.panel.point_panel{
+.panel.city_panel.point_panel{
 	display:none;
 	z-index: 11;
 	left: 380px;
 	margin-left: 2%;
 }
-.panel.comment_panel, .panel.complaint_panel{
+.panel.city_panel.comment_panel, .panel.city_panel.complaint_panel{
 	display:none;
 	z-index: 11;
 	left: 760px;
 	margin-left: 2%;
 }
-.panel.addpoint_panel{
+.panel.city_panel.addpoint_panel{
 	width: 550px;
-} 
+}
+/* xs */
+@media (max-width: 767px) {
+	.panel.city_panel {
+		width: 96%;
+		height: auto;
+		display: table;
+		top: 7px;
+	}
+	.panel.city_panel.point_panel{}
+	.panel.city_panel.comment_panel, .panel.city_panel.complaint_panel{}
+	.panel.city_panel.addpoint_panel{}
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+/* lg */
+@media (min-width: 1200px) {
+	
+}
 .city_head{
 	background:#454853;
 	min-height: 75px;
