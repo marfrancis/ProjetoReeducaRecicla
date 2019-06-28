@@ -49,22 +49,22 @@
 		<div class="collapse navbar-collapse " id="navbarTogglerDemo02">
 			<ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
 				<li class="nav-item">
-					<a class="nav-link " href="index.php">Home</a>
+					<a class="nav-link headerBurg" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="sobre.php">Sobre nós</a>
+					<a class="nav-link headerBurg" href="sobre.php">Sobre nós</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="loja.php">Loja</a>
+					<a class="nav-link headerBurg" href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="contato.php">Contato</a>
+					<a class="nav-link headerBurg" href="contato.php">Contato</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="mapa.php">Mapa</a>
+					<a class="nav-link headerBurg" href="mapa.php">Mapa</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="login.php">Login</a>
+					<a class="nav-link headerBurg" href="login.php">Login</a>
 				</li>
 			</ul>
 		</div>

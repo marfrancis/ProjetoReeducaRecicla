@@ -45,6 +45,11 @@ a.efeitoTransicao:hover {
     margin-left: 25%;
 }
 
+.headerBurg {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Fim configuração Header */
 
 /* Inicio configuracao FAQ */
@@ -710,7 +715,6 @@ div.thumbnails .magnifier .buttons {
 a.efeitoTransicaoLoja {
     color: limegreen;
     font-size: 20px;
-    padding: 30px;
     font-weight: bolder
 }
 
@@ -843,6 +847,13 @@ a.efeitoTransicaoLoja:hover {
         background-color: #28a745!important;
     border-color: #28a745!important;
 }
+
+.lojaBurg {
+    color: limegreen;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 
