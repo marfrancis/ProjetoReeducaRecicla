@@ -54,7 +54,7 @@
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
                         <br>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                         <p class="card-text">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                         <p class="card-text ">O Eco Tanque permite que voc&ecirc; reutilize a &aacute;gua que seria
                             desperdi&ccedil;ada pela m&aacute;quina de lavar.</p>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                         <br>
                         <br>
                         <p class="card-text precoLoja">R$177,00</p>
-                        <a href="internaProduto.html" class="btn btn-success">Comprar</a>
+                        <a href="internaProduto.php" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -170,11 +170,7 @@
 
     <?php include_once "footer.php"?>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+   
 </body>
 
 </html>

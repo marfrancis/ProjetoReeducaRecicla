@@ -47,7 +47,7 @@
                   <li class="nav-item newsletter">
                      <label class="form-control newsletter-footer"> Assine nossa Newsletter!</label>                
                         <div class="input-group newsletter-email">
-                             <input class="form-control" type="email" placeholder="email@email.com.br"> </input>
+                             <input class="form-control" type="email" placeholder="email@email.com.br">
                              <span class="input-group-btn "> 
                              <button class="btn btn-success" class="btn-newsletter" type="submit">Assine agora</button>
                           </span>
@@ -75,6 +75,7 @@
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/stylesa361.css?ver=2.3" rel="stylesheet" type="text/css" />
 	<link href="css/beta-popup.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/1555d36d55.js"></script>
 
 
 	<!-- <script src="js/jquery.js"></script> -->

@@ -222,16 +222,7 @@
 <?php include_once "footer.php"; ?>
 
 <!-- fim footer -->
-
-
-
-
-
-                <script src="js/jquery.js"></script>
-                <script src="js/bootstrap.bundle.js"></script>
-                <script src="js/bootstrap.bundle.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="https://kit.fontawesome.com/1555d36d55.js"></script>
+              
 
 </body>
 

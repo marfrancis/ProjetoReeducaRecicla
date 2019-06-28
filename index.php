@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-<?php include_once "head.php"; ?>
+<?php
+$root = 'http://localhost/projetoreeducarecicla/';
+$foto = 'salveo%20planeta.png';
+
+$title = $facebook_title = "Home";
+$keywords = 'recicla,palavras,chave,separadas,por,virgula';
+$description = $facebook_description = substr(strip_tags('<p>A Reeduca, por sua atitude empresarial e pela qualidade das relações que busca desenvolver com os diversos agentes que articula, expressa sua marca na identidade com pessoas e empresas que se comprometem a atuar de maneira efetiva na colaboração por um mundo mais saudável para se habitar, em respeito ao meio ambiente do qual fazem parte e responsabilidade para com as gerações por vir.</p>'), 0, 200);
+$facebook_image = htmlentities($root . 'img/' . $foto);
+
+
+
+include_once "head.php"; ?>
 
 <body>
 	<!-- Inicio Cabeçalho -->
@@ -104,7 +115,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="card">
-								<img class="card-img-top" src="img/bannerloja2.jpg" alt="Card image cap">
+								<img class="card-img-top" src="img/bannerlojaresponsivo.jpg" alt="Card image cap">
 								<div class="card-body">
 									<h4 class="card-title">Visite nossa loja virtual</h4>
 									<p class="card-text">Trabalhamos com produtos feitos de material reciclado.</p>

@@ -883,6 +883,12 @@ a.efeitoTransicaoLoja:hover {
     
     /* Fim configuracao sobre nos */
 
+    /* interna produto */
+
+    .btn-comprar {
+        margin-right: 0px;
+    }
+
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
