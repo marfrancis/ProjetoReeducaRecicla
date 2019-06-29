@@ -401,29 +401,27 @@ p#frase {
 }
 
 .nav-item-newsletter{
-    width:250px;
-    padding: 90px;
+    width:100%;
+    
 }
 
 .div-icones{
-    margin-right:20px;
+    margin:30px;
+    display: inline-flex;
   
 }
-.newsletter-footer{
-    width: 350px;
-    height:35px;
- }
 
 .newsletter-email{
-     width:350px;
+     width:100%;
  }
 
 .footer-logo-size{
-    padding:30px;
+   margin-top:40px;
+   margin-left:60px;
 }
 
-#foot5{
-    background-color: #333333;
+.marginFooter{
+    margin:20px;
 }
 
 .nav-item-redes-sociais{
@@ -435,9 +433,14 @@ p#frase {
    font-weight:bold;
 }
 
-#footer-copyrights{
+.foot5{
+    background-color: #333333; 
     color:white; 
-    font-size: 0.8rem;   
+    font-size: 0.8rem;  
+    line-height: 1.0rem; 
+    display:flex;
+    justify-content: center;
+   
 }
 
 .ul-icones-footer{

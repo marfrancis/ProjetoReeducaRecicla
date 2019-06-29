@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Eco Tanque 80 litros Casológica</h5>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod3.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Luminária solar de parede</h5>
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod2.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Reservatório de óleo vegetal</h5>
@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Vaso coletor de água da chuva</h5>
@@ -97,7 +97,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Canudo ecológico</h5>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod6.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Carregador solar portátil</h5>
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-3">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Detergente multiuso biodegradável</h5>
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="col-md-3 mt-3 mb-5">
-                <div class="card" style="width: 15rem;">
+                <div class="card">
                     <img src="img/prod8.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Tênis Adidas</h5>
