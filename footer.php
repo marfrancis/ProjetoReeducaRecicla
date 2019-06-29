@@ -3,28 +3,28 @@
 	<footer>    
     <nav class="nav nav-fill rodape">
    
-        <div class="col-md-2"> 
+        <div class="col-md-3 d-none d-sm-block"> 
         <li class="footer-logo-size">
                 <img src="img/logo_branco.png" width="200" alt="">
         </li>  
         </div>
 
         <div class="col-md-9">
-              <ul class="nav marginFooter">                  
-                  <li class="nav-item" >
-                      <a class="nav-link active menu-footer" href="index.html">Home</a>
-                      <a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
-                      <a class="nav-link active menu-footer" href="loja.html">Loja</a>
-                  </li>
-                  <li class="nav-item" >
-                      <a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
-                      <a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active menu-footer" href="contato.html">Contato</a>
-                  </li>
-
-                  <div class="col-md-2 text-primary div-icones" >
+			<div class="row">
+				<ul class="nav marginFooter">
+					<li class="nav-item d-none d-sm-block" >
+						<a class="nav-link active menu-footer" href="index.html">Home</a>
+						<a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
+						<a class="nav-link active menu-footer" href="loja.html">Loja</a>
+					</li>
+					<li class="nav-item d-none d-sm-block" >
+						<a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
+						<a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
+					</li>
+					<li class="nav-item d-none d-sm-block">
+						<a class="nav-link active menu-footer" href="contato.html">Contato</a>
+					</li>
+			   <div class="col-md-2 text-primary div-icones justify-content-center" >
                     <ul class="ul-icones-footer ">
                         <li class="nav-link active icones-footer">
                             <a href="https://twitter.com/reeducarecicla" target="_blank">
@@ -43,7 +43,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+            	</div>
                   <li class="nav-item newsletter">
                      <label class="form-control newsletter-footer"> Assine nossa Newsletter!</label>                
                         <div class="input-group newsletter-email">
@@ -57,9 +57,9 @@
           </div>
     </nav> 
 
-      <section class="container-fluid" id="foot5">
-          <h4 class="text-center" id="footer-copyrights">Copyrights © 2019 ReeducaRecicla</h4>
-      </section>
+      <div class="foot5 mb-0 container-fluid justify-content-center">
+          Copyrights © 2019 ReeducaRecicla
+	  </div>
 </footer>
 </div>
 
