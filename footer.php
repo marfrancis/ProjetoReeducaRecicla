@@ -75,7 +75,7 @@
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/stylesa361.css?ver=2.3" rel="stylesheet" type="text/css" />
 	<link href="css/beta-popup.css" rel="stylesheet" type="text/css" />
-	<script src="https://kit.fontawesome.com/1555d36d55.js"></script>
+	
 
 
 	<!-- <script src="js/jquery.js"></script> -->
@@ -83,6 +83,7 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/recicla.min.js"></script>
+	
 
 	<?php if (strpos($_SERVER['SCRIPT_NAME'], 'mapa.php')): ?>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDottVHFaZukoZo_EvVv-jxbhOCpC1LMeY&callback=initMap"></script>
