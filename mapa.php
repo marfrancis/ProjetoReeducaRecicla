@@ -43,7 +43,7 @@ include_once "head.php"; ?>
 					<div class="trash_type">
 
 
-						<button class="btn-primary d-block d-sm-none" type="button" data-toggle="collapse" data-target="#seletorDeCategoria" style="font-size: 17px; width: 100%; text-align: center;">Escolher categoria</button>
+						<button class="btn btn-primary d-block d-sm-none mb-3" type="button" data-toggle="collapse" data-target="#seletorDeCategoria" style="font-size: 17px; width: 100%; text-align: center;">Escolher categoria</button>
 
 						<div class="collapse navbar-collapse d-sm-block " id="seletorDeCategoria">
 							<div class="trash_type_title">ESCOLHA O MATERIAL A SER RECICLADO:</div>
@@ -94,7 +94,7 @@ include_once "head.php"; ?>
 									<span class="custom-tooltip">Tetra Pack</span>
 								</div>
 							</div>
-							<button class="btn-primary d-block d-sm-none" type="button" data-toggle="collapse" data-target="#seletorDeCategoria" style="font-size: 17px; width: 100%; text-align: center;"><i class="fa fa-chevron-up"></i></button>
+							<button class="btn btn-primary d-block d-sm-none mt-3" type="button" data-toggle="collapse" data-target="#seletorDeCategoria" style="font-size: 17px; width: 100%; text-align: center;"><i class="fa fa-chevron-up"></i></button>
 						</div>
 
 

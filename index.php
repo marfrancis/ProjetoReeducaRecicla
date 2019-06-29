@@ -75,7 +75,8 @@ include_once "head.php"; ?>
 			</div>
 			<div class="col-md-6 texto-info-home">
 				<article>
-					<h1 class="titulo-card-home">Por que reciclar ?</h1>
+					<h1 class="titulo-card-home d-none d-sm-none d-md-block d-lg-block d-xl-block">Por que reciclar ?</h1>
+					<h2 class="titulo-card-home d-block d-sm-block d-md-none d-lg-none d-xl-none">Por que reciclar ?</h2>
 					<p class="texto-card-home">Conforme a população do planeta aumenta, cresce também a quantidade de lixo
 						produzido. Porém, ao longo das décadas, foram descobertas novas maneiras de reaproveitar estes
 						materiais que iam diretamente para os lixões, como plástico, papel, metais, vidro e madeira. Este
