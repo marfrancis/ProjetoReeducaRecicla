@@ -107,10 +107,27 @@ include_once "head.php"; ?>
 		<!-- inicio propaganda loja -->
 		<div class="mt-4 mb-4">
 			<div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-				<a href="loja.php" role="button" title="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
+				<div class="card bg-dark text-white card-banner">
+  				<img src="img/bannerloja2.jpg" class="card-img" alt="...">
+  						<div class="card-img-overlay">
+    
+    
+					  </div>
+					  
+				</div>
+
+			</div>	
+				
+				<!-- <a href="loja.php" role="button" title="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
 					<img class="img-fluid" src="img/bannerloja2.jpg" alt="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
-				</a>
-			</div>
+				</a> -->
+
+				
+    				<!-- Banner topo -->
+
+    
+				
+			
 			<div class="d-block d-sm-block d-md-none d-lg-none d-xl-none">
 				<div class="container-fluid">
 					<div class="row">
