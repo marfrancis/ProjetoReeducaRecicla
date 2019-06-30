@@ -41,14 +41,6 @@ include_once "head.php";
    
       <?php include_once "footer.php";?>
 
-
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

@@ -464,7 +464,7 @@ p#frase {
 /* Inicio configuração formulario de login */
 
 .paginaLogin{
-    background-color:rgba(8, 192, 8, 0.5);
+    background-color:rgba(8, 192, 8,0.8);
     width:100%;
     display: flex;
     justify-content: center;
