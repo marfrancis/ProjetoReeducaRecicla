@@ -17,7 +17,8 @@ include_once "head.php";
     <section class="container-fluid">
         <div class="row sobre">
             <div class="col-md-6 foto">
-                <img src="img/salveo%20planeta.png" class="img-fluid" alt="Salve o planeta">
+               <img src="img/salveo%20planeta.png" class="img-fluid desktop" alt="Salve o planeta">
+               <img src="img/salveoplanetaresponsivo.jpg" class="img-fluid responsivo" alt="Salve o planeta">
             </div>
             
             <article class="col-md-6 texto">

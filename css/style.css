@@ -208,6 +208,10 @@ div.foto{
     margin-bottom: 20px;
 }
 
+img.responsivo{
+    display: none;
+}
+
 /* Fim configuração sobre nos */
 
 
@@ -892,6 +896,12 @@ a.efeitoTransicaoLoja:hover {
     /* Inicio configuracao sobre nos */
 
     .recycle-feeds{
+        display: none;
+    }
+    img.responsivo{
+        display: block;
+    }
+    img.desktop{
         display: none;
     }
     
