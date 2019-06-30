@@ -16,7 +16,7 @@ include_once "head.php"; ?>
 
 <body>
 	<!-- Inicio Cabeçalho -->
-	
+
 	<?php include_once "header.php"; ?>
 
 	<!-- fim cabeçalho -->
@@ -26,10 +26,13 @@ include_once "head.php"; ?>
 	<section class="container-fluid">
 		<div class="row mt-3">
 			<div class="col-12 col-md-4">
-				<div class="card border-success  card1-home" >
+				<div class="card border-success  card1-home">
 					<div class="card-body">
 						<h5 class="card-title">Mapa Interativo</h5>
-						<p class="card-text">Você pode ajudar o planeta com uma ação simples - use o mapa interativo do Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira simples: insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas proximidades.</p>
+						<p class="card-text">Você pode ajudar o planeta com uma ação simples - use o mapa interativo do
+							Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira simples:
+							insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas
+							proximidades.</p>
 						<h5>Saiba onde descartar seus resíduos</h5>
 						<p></p>
 						<a href="mapa.php" class="btn btn-success btn-card">Acessar o Mapa</a>
@@ -41,29 +44,32 @@ include_once "head.php"; ?>
 				<div class="card border-success  card1-home">
 					<div class="card-body">
 						<img src="img/imgcardhome.jpg" alt="" class="img-fluid">
-						
+
 					</div>
 				</div>
 			</div>
 
 			<div class="col-12 col-md-4 ">
-				<div class="card border-success card1-home" >
+				<div class="card border-success card1-home">
 					<div class="card-body bg-success text-white">
 						<h5 class="card-title">Reeduca Recicla</h5>
 						<p class="card-text"></p>
-						<p>Acreditamos na capacidade das pessoas e empresas de adotarem escolhas que contribuam para o desenvolvimento de uma sociedade sustentável, com relações de consumo de maior qualidade e práticas ambientalmente responsáveis.</p>
-						<p>No portal, o internauta encontra serviços como um Sistema de Busca de postos de coleta para mais de 12 tipos de resíduos</p>
-						
+						<p>Acreditamos na capacidade das pessoas e empresas de adotarem escolhas que contribuam para o
+							desenvolvimento de uma sociedade sustentável, com relações de consumo de maior qualidade e
+							práticas ambientalmente responsáveis.</p>
+						<p>No portal, o internauta encontra serviços como um Sistema de Busca de postos de coleta para
+							mais de 12 tipos de resíduos</p>
+
 					</div>
 				</div>
 			</div>
 
-			
-			
+
+
 		</div>
-		
+
 	</section>
-	
+
 
 	<!-- fim banner -->
 	<main class="container-fluid ">
@@ -75,26 +81,36 @@ include_once "head.php"; ?>
 			</div>
 			<div class="col-md-6 texto-info-home">
 				<article>
-					<h1 class="titulo-card-home d-none d-sm-none d-md-block d-lg-block d-xl-block">Por que reciclar ?</h1>
-					<h2 class="titulo-card-home d-block d-sm-block d-md-none d-lg-none d-xl-none">Por que reciclar ?</h2>
-					<p class="texto-card-home">Conforme a população do planeta aumenta, cresce também a quantidade de lixo
+					<h1 class="titulo-card-home d-none d-sm-none d-md-block d-lg-block d-xl-block">Por que reciclar ?
+					</h1>
+					<h2 class="titulo-card-home d-block d-sm-block d-md-none d-lg-none d-xl-none">Por que reciclar ?
+					</h2>
+					<p class="texto-card-home">Conforme a população do planeta aumenta, cresce também a quantidade de
+						lixo
 						produzido. Porém, ao longo das décadas, foram descobertas novas maneiras de reaproveitar estes
-						materiais que iam diretamente para os lixões, como plástico, papel, metais, vidro e madeira. Este
-					processo recebe o nome de reciclagem.</p>
-					<p class="texto-card-home">Muitos desses componentes, quando não recebem tratamento adequado e não são
+						materiais que iam diretamente para os lixões, como plástico, papel, metais, vidro e madeira.
+						Este
+						processo recebe o nome de reciclagem.</p>
+					<p class="texto-card-home">Muitos desses componentes, quando não recebem tratamento adequado e não
+						são
 						encaminhados para a reciclagem, demoram décadas e até séculos para se decompor. O acúmulo dessas
 						substâncias no meio ambiente causa poluição, degradação ambiental e prejudica todo o ecossistema
-						terrestre. Além disso, a reciclagem evita o esgotamento de matérias-primas, uma vez que reaproveita
+						terrestre. Além disso, a reciclagem evita o esgotamento de matérias-primas, uma vez que
+						reaproveita
 						o material para outros fins, em vez de simplesmente descartá-lo e retirar um novo material da
-					natureza.</p>
+						natureza.</p>
 					<p class="texto-card-home">Além de ser ecológica, a reciclagem é fundamental para a economia. Isso
-						porque o setor gera renda a muitas famílias, seja durante a coleta, na linha de produção ou mesmo
-						para artesãos. Outra vantagem da reciclagem é a redução no consumo de água e energia elétrica, pois
-					gasta-se menos recursos ao reaproveitar os materiais do que a extração.</p>
+						porque o setor gera renda a muitas famílias, seja durante a coleta, na linha de produção ou
+						mesmo
+						para artesãos. Outra vantagem da reciclagem é a redução no consumo de água e energia elétrica,
+						pois
+						gasta-se menos recursos ao reaproveitar os materiais do que a extração.</p>
 					<p class="texto-card-home">Vale ressaltar que a reciclagem não se limita apenas ao lixo inorgânico e
-						madeira: até mesmo o óleo de cozinha pode ser reciclado e transformado em sabão. Sem contar o lixo
-						orgânico, que pode se tornar compostagem (adubo orgânico), fortificando o solo e ajudando a reter
-					umidade.</p>
+						madeira: até mesmo o óleo de cozinha pode ser reciclado e transformado em sabão. Sem contar o
+						lixo
+						orgânico, que pode se tornar compostagem (adubo orgânico), fortificando o solo e ajudando a
+						reter
+						umidade.</p>
 				</article>
 			</div>
 		</div>
@@ -107,43 +123,43 @@ include_once "head.php"; ?>
 		<!-- inicio propaganda loja -->
 		<div class="mt-4 mb-4">
 			<div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-				<div class="card bg-dark text-white card-banner">
-  				<img src="img/bannerloja2.jpg" class="card-img" alt="...">
-  						<div class="card-img-overlay">
-    
-    
-					  </div>
-					  
-				</div>
+				<a href="loja.php" role="button"
+					title="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
+					<div class="card bg-dark text-white card-banner">
+						<img src="img/bannerloja2.jpg" class="card-img" alt="Visite nossa loja virtual">
+						<div class="card-img-overlay">
+						</div>
+				</a>
+			</div>
 
-			</div>	
-				
-				<!-- <a href="loja.php" role="button" title="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
-					<img class="img-fluid" src="img/bannerloja2.jpg" alt="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
-				</a> -->
+		</div>
 
-				
-    				<!-- Banner topo -->
 
-    
-				
-			
-			<div class="d-block d-sm-block d-md-none d-lg-none d-xl-none">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="card">
-								<img class="card-img-top" src="img/bannerlojaresponsivo.jpg" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Visite nossa loja virtual</h4>
-									<p class="card-text">Trabalhamos com produtos feitos de material reciclado.</p>
-									<a href="#" class="btn btn-primary">Acessar</a>
-								</div>
+
+
+
+
+		<!-- Banner topo -->
+
+
+
+
+		<div class="d-block d-sm-block d-md-none d-lg-none d-xl-none">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="card">
+							<img class="card-img-top" src="img/bannerlojaresponsivo.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Visite nossa loja virtual</h4>
+								<p class="card-text">Trabalhamos com produtos feitos de material reciclado.</p>
+								<a href="#" class="btn btn-primary">Acessar</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 
 		<!-- fim propaganda loja -->
