@@ -17,7 +17,7 @@ include_once "head.php"; ?>
     
 <?php include_once "header.php"; ?>
 
-<div class="row no-gutters">
+<div class="container-fluid no-gutters p-0">
     <!-- Banner topo -->
 
     <div class="card bg-dark text-white card-banner">
