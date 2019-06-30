@@ -13,16 +13,16 @@
 			<div class="row">
 				<ul class="nav marginFooter">
 					<li class="nav-item d-none d-sm-block" >
-						<a class="nav-link active menu-footer" href="index.html">Home</a>
-						<a class="nav-link active menu-footer" href="sobre.html">Sobre</a>
-						<a class="nav-link active menu-footer" href="loja.html">Loja</a>
+						<a class="nav-link active menu-footer" href="index.php">Home</a>
+						<a class="nav-link active menu-footer" href="sobre.php">Sobre</a>
+						<a class="nav-link active menu-footer" href="loja.php">Loja</a>
 					</li>
 					<li class="nav-item d-none d-sm-block" >
-						<a class="nav-link active menu-footer" href="mapa.html">Mapa</a>
+						<a class="nav-link active menu-footer" href="mapa.php">Mapa</a>
 						<a class="nav-link active menu-footer" href="FAQ.php">FAQ</a> 
 					</li>
 					<li class="nav-item d-none d-sm-block">
-						<a class="nav-link active menu-footer" href="contato.html">Contato</a>
+						<a class="nav-link active menu-footer" href="contato.php">Contato</a>
 					</li>
 			   <div class="col-md-2 text-primary div-icones justify-content-center" >
                     <ul class="ul-icones-footer ">

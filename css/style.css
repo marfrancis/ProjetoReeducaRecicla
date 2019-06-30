@@ -463,33 +463,18 @@ p#frase {
 
 /* Inicio configuração formulario de login */
 
-#remember-user{
-    width:20px;
-    height: 20px;
+.paginaLogin{
+    background-color:rgba(8, 192, 8, 0.5);
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 
-#remember-user-text{
-    padding: 10px;
+.display-4{
+    font-size:1.5em;
+    display:flex;
+    justify-content: center;
 }
-
-.formNewsLetter {
-    width: 250px;
-    height:30px;
-    
-}
-
-#label-remember-user{
-    font-size: 0.9rem;
-}
-
-#btn-login{
-    background-color:green;
-}
-
-.modal-content-login{
-    color:white;
-}
-
 /* Fim configuração formulario de login */
 
 
