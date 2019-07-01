@@ -41,6 +41,14 @@ include_once "head.php";
    
       <?php include_once "footer.php";?>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 8187dabd0df4f71033e5290328aa1db8a9a016c9
 </body>
 
 </html>
