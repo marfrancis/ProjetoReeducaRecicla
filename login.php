@@ -44,10 +44,7 @@ include_once "head.php";
 
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 

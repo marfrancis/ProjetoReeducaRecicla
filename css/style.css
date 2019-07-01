@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+html,body {
+    min-height: 100%;
+}
+
 
 /* Inicio Configuração Header  */
 
@@ -475,6 +479,8 @@ p#frase {
     display:flex;
     justify-content: center;
 }
+
+
 /* Fim configuração formulario de login */
 
 
