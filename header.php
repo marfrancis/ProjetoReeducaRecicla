@@ -15,16 +15,16 @@
 					<a class="nav-link active grow efeitoTransicao" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="sobre.php">Sobre nós</a>
+					<a class="nav-link grow efeitoTransicao" href="mapa.php">Mapa</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicao" href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="contato.php">Contato</a>
+					<a class="nav-link grow efeitoTransicao" href="sobre.php">Sobre</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="mapa.php">Mapa</a>
+					<a class="nav-link grow efeitoTransicao" href="contato.php">Contato</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicao" href="login.php">Login</a>
@@ -52,16 +52,16 @@
 					<a class="nav-link headerBurg" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link headerBurg" href="sobre.php">Sobre nós</a>
+					<a class="nav-link headerBurg" href="mapa.php">Mapa</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link headerBurg" href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link headerBurg" href="contato.php">Contato</a>
+					<a class="nav-link headerBurg" href="sobre.php">Sobre</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link headerBurg" href="mapa.php">Mapa</a>
+					<a class="nav-link headerBurg" href="contato.php">Contato</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link headerBurg" href="login.php">Login</a>

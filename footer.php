@@ -58,7 +58,7 @@
     </nav> 
 
       <div class="foot5 mb-0 container-fluid justify-content-center">
-          Copyrights © 2019 ReeducaRecicla
+          <p class="mb-3">Copyrights © 2019 ReeducaRecicla</p>
 	  </div>
 </footer>
 </div>

@@ -79,7 +79,7 @@ include_once "head.php"; ?>
 				</article>
 			</div>
 			<div class="col-md-6 img-texto">
-				<img src="img/nature.jpg" class="img-fluid " alt="Por que reciclar?">
+				<img src="img/nature2.png" class="img-fluid " alt="Por que reciclar?">
 			</div>
 			
 		</div>
@@ -90,7 +90,7 @@ include_once "head.php"; ?>
 	<main class="container-fluid no-gutters main-pag-home">
 
 		<!-- inicio propaganda loja -->
-		<div class="mt-4 mb-4">
+		<!-- <div class="mt-4 mb-4">
 			<div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
 				<a href="loja.php" role="button"
 				title="Visite nossa loja virtual - Trabalhamos com produtos feitos de material reciclado.">
@@ -101,14 +101,30 @@ include_once "head.php"; ?>
 				</a>
 			</div>
 
+		</div> -->
+
+		<div class="row no-gutters recicla-texto">
+			
+			<div class="col-md-6 img-texto d-none d-sm-none d-md-block d-lg-block d-xl-block">
+				<img src="img/lojavirtual.jpg" class="img-fluid " alt="Loja virtual">
+			</div>
+			<div class="col-md-6 texto-info-home px-3 d-none d-sm-none d-md-block d-lg-block d-xl-block">
+				<article>
+					<h1 class="titulo-card-home-loja d-none d-sm-none d-md-block d-lg-block d-xl-block ">Visite nossa loja <span class="color-title">virtual!</span>
+					</h1>
+					
+					<p class="texto-card-home-loja">Trabalhamos com produtos feitos de material reciclado.</p>
+					<a href="loja.php" class="btn btn-success btn-card">Acessar a Loja</a>
+					
+				</article>
+			</div>
 		</div>
+	</main>
 
 
 
 
-
-
-		<!-- Banner topo -->
+		<!-- Banner topo mobile loja -->
 
 
 

@@ -148,9 +148,24 @@ h1.h1FAQ {
     line-height: 1.6;
 }
 
+.titulo-card-home-loja {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    line-height: 1.6;
+}
+
 .texto-card-home {
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+
+.texto-card-home-loja {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.6;
     
@@ -419,7 +434,7 @@ p#frase {
 /*Início Configuração Footer*/
 
 .rodape{
-    background: #333333;
+    background: #603814;
     padding-top:30px;
     padding-bottom:30px;
     font-size: 0.9rem;
@@ -461,7 +476,7 @@ p#frase {
 }
 
 .foot5{
-    background-color: #333333; 
+    background-color: #603814; 
     color:white; 
     font-size: 0.8rem;  
     line-height: 1.0rem; 

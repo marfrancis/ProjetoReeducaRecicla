@@ -55,7 +55,7 @@ include_once "head.php"; ?>
                         <textarea class="form-control contato" cols="10" rows="5"></textarea>
                     </div>
 
-                    <div class="submit-buttons mb-5">
+                    <div class="submit-buttons ">
                         <button type="submit" class="btn btn-card btn-primary">Enviar</button>
                         <button type="reset" class="btn btn-card btn-secondary">Limpar</button>
                     </div>
@@ -65,7 +65,7 @@ include_once "head.php"; ?>
 
             <!-- Imagem Abaixo formulario -->
             <div class="col-md-8 col-xs-12" id="imgform">
-                <img src="img/porquereciclar.png" class="img-fluid">
+                <img src="img/nature.jpg" class="img-fluid">
             </div>
         </div>
         <!-- fim imagem -->
