@@ -158,7 +158,7 @@ include_once "head.php"; ?>
 
 	<!-- inicio frase -->
 
-	<div class="recycle-feeds d-none d-md-block">
+	<!-- <div class="recycle-feeds d-none d-md-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-12">
@@ -173,7 +173,7 @@ include_once "head.php"; ?>
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- fim frase -->
 
 
