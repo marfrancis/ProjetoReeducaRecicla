@@ -40,7 +40,7 @@ include_once "head.php"; ?>
 				<div class="col-12 col-md-6 ">
 					<div class="card border-success  card1-home">
 						<div class="card-body">
-							<h1 class="card-title titulo-card-home">Vai descartar seus resíduos?</h1>
+							<h1 class="card-title titulo-card-home">Vai descartar seus <span class="color-title">resíduos?</span></h1>
 								<p class="card-text titulo-card-home">Você pode ajudar o planeta com uma ação simples, use o mapa interativo do
 								Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira simples:
 								insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas
@@ -65,9 +65,9 @@ include_once "head.php"; ?>
 		<div class="row no-gutters recicla-texto">
 		<div class="col-md-6 texto-info-home px-3">
 				<article>
-					<h1 class="titulo-card-home d-none d-sm-none d-md-block d-lg-block d-xl-block ">Por que reciclar ?
+					<h1 class="titulo-card-home d-none d-sm-none d-md-block d-lg-block d-xl-block ">Por que <span class="color-title">reciclar ?</span>
 					</h1>
-					<h2 class="titulo-card-home d-block d-sm-block d-md-none d-lg-none d-xl-none">Por que reciclar ?
+					<h2 class="titulo-card-home d-block d-sm-block d-md-none d-lg-none d-xl-none">Por que <span class="color-title">reciclar ?</span>
 					</h2>
 					<p class="texto-card-home">Conforme a população do planeta aumenta, cresce também a quantidade de
 						lixo
