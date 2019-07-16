@@ -65,7 +65,7 @@ include_once "head.php"; ?>
 
             <!-- Imagem Abaixo formulario -->
             <div class="col-md-8 col-xs-12" id="imgform">
-                <img src="img/familiareciclado.jpg" class="img-fluid">
+                <img src="img/porquereciclar.png" class="img-fluid">
             </div>
         </div>
         <!-- fim imagem -->

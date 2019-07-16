@@ -247,19 +247,46 @@
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 11318,
+				"buffer_size": 11171,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "gi<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\"\n            aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-header\">\n                        <h5 class=\"modal-title\" id=\"exampleModalLabel\">Login</h5>\n                        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" id=\"botaoFecharLogin\">\n                            <span aria-hidden=\"true\">&times;</span>\n                        </button>\n                    </div>\n                    <div class=\"modal-body\">\n                        <form>\n                            <div class=\"form-group\" class=\"form-inline\">\n                                <label for=\"recipient-name\" class=\"col-form-label\">Usuário:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"recipient-name\">\n                                <div class=\"form-inline\">\n                                    <input type=\"checkbox\" class=\"form-control\" id=\"remember-user\">\n                                    <label class=\"col-form-label\" id=\"remember-user-text\"> Lembrar usuário</label>\n                                </div>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"message-text\" class=\"col-form-label\">Senha:</label>\n                                <input type=\"password\" class=\"form-control\" id=\"password\"></input>\n                                <a href=\"#\">Esqueceu a senha?</a>\n                            </div>\n                        </form>\n                    </div>\n                    <div class=\"modal-footer\">\n                        <a class=\"btn btn-danger\" id=\"botaoAbrirCadastro\" href=\"#\">Ainda não tem cadastro?</a>\n                        <button type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\" id=\"btn-login\">Acessar</button>\n                    </div>\n                </div>\n            </div>\n\t\t</div>",
-			"file": "login.php",
-			"file_size": 2109,
-			"file_write_time": 132056860871435050,
+			"file": "/C/xampp/htdocs/ProjetoSiteMediaSolutionDigital/index.php",
 			"settings":
 			{
-				"buffer_size": 2075,
+				"buffer_size": 19856,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/ProjetoSiteMediaSolutionDigital/header.php",
+			"settings":
+			{
+				"buffer_size": 1548,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "head.php",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "login.php",
+			"file_size": 2386,
+			"file_write_time": 132064764003197725,
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -267,7 +294,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 7029,
+				"buffer_size": 7755,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -282,19 +309,10 @@
 			}
 		},
 		{
-			"file": "cadastro.php",
-			"settings":
-			{
-				"buffer_size": 3084,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "contato.php",
 			"settings":
 			{
-				"buffer_size": 6356,
+				"buffer_size": 6372,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -303,8 +321,16 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 14319,
+				"buffer_size": 14735,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -312,7 +338,7 @@
 			"file": "mapa.php",
 			"settings":
 			{
-				"buffer_size": 4875,
+				"buffer_size": 4893,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -339,6 +365,10 @@
 		"selected_items":
 		[
 			[
+				"syphp",
+				"Set Syntax: PHP"
+			],
+			[
 				"cssres",
 				"Snippet: css responsive"
 			],
@@ -349,10 +379,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"syphp",
-				"Set Syntax: PHP"
 			],
 			[
 				"saveall",
@@ -600,11 +626,11 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 105.0,
 		"where_history":
 		[
 			"C:\\xampp\\htdocs\\ProjetoReeducaRecicla"
@@ -615,6 +641,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"none",
+			"sm",
+			"md",
 			"tamanhoHeader",
 			"animate",
 			"easeOutQuint",
@@ -698,7 +727,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -707,7 +736,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11318,
+						"buffer_size": 11171,
 						"regions":
 						{
 						},
@@ -725,7 +754,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2821.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -733,19 +762,47 @@
 				},
 				{
 					"buffer": 1,
-					"file": "login.php",
+					"file": "/C/xampp/htdocs/ProjetoSiteMediaSolutionDigital/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2075,
+						"buffer_size": 19856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2,
-								2
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/ProjetoSiteMediaSolutionDigital/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -758,24 +815,83 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "index.php",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "head.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 7029,
+						"buffer_size": 1545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4340,
-								4347
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
 							]
 						],
 						"settings":
@@ -788,11 +904,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "header.php",
 					"semi_transient": false,
 					"settings":
@@ -804,8 +920,8 @@
 						"selection":
 						[
 							[
-								4085,
-								4090
+								0,
+								0
 							]
 						],
 						"settings":
@@ -818,16 +934,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "cadastro.php",
-					"semi_transient": true,
+					"buffer": 7,
+					"file": "contato.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3084,
+						"buffer_size": 6372,
 						"regions":
 						{
 						},
@@ -841,61 +957,31 @@
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 893.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "contato.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5650,
-								5615
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1246.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14319,
+						"buffer_size": 14735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								277
+								0,
+								0
 							]
 						],
 						"settings":
@@ -908,16 +994,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "mapa.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4875,
+						"buffer_size": 4893,
 						"regions":
 						{
 						},
@@ -934,14 +1047,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1245.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "css/stylesa361.css",
 					"semi_transient": false,
 					"settings":
@@ -953,8 +1066,8 @@
 						"selection":
 						[
 							[
-								2052,
-								2052
+								0,
+								0
 							]
 						],
 						"settings":
@@ -963,10 +1076,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -974,7 +1087,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -1011,7 +1124,7 @@
 	"project": "site recicla.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1020,6 +1133,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"index.php"
+			],
 			[
 				"style.css",
 				"css\\stylesa361.css"
