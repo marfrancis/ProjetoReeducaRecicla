@@ -177,7 +177,7 @@ h1.h1FAQ {
 }
 
 .color-title {
-    color: #badc58;
+    color: #28a745;
     font-weight: 600;
 }
 
@@ -434,7 +434,7 @@ p#frase {
 /*Início Configuração Footer*/
 
 .rodape{
-    background: #603814;
+    background: #000000;
     padding-top:30px;
     padding-bottom:30px;
     font-size: 0.9rem;
@@ -476,7 +476,7 @@ p#frase {
 }
 
 .foot5{
-    background-color: #603814; 
+    background-color: #000000; 
     color:white; 
     font-size: 0.8rem;  
     line-height: 1.0rem; 

@@ -43,7 +43,7 @@ include_once "head.php"; ?>
 							<h1 class="card-title titulo-card-home">Vai descartar seus <span class="color-title">resíduos?</span></h1>
 								<p class="card-text titulo-card-home">Você pode ajudar o planeta com uma ação simples, use o mapa interativo do
 								Reeduca Recicla mostrando pontos de reciclagem nas cidades. Funciona de maneira simples:
-								insira seu endereço na caixa de pesquisa e o mapa mostrará pontos de coleta nas
+								escolha a cidade na caixa de pesquisa e o mapa mostrará pontos de coleta nas
 								proximidades.
 								</p>
 								<!-- <h5>Saiba onde descartar seus resíduos</h5> -->
@@ -150,7 +150,7 @@ include_once "head.php"; ?>
 	<!-- fim propaganda loja -->
 
 	<!-- inicio parceiros -->
-	<div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
+	<div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img class="d-block w-100" src="img/parceiros1.jpg" alt="Primeiro Slide">
