@@ -3,7 +3,7 @@
 <?php if (false): ?>
 <?php endif ?>
 <header>
-	<nav class="navbar navbar-light bg-white active shadow p-3 mb-0 displayQuery ">
+	<nav class="navbar navbar-light bg-white active shadow p-3 mb-0 displayQuery  ">
 		<div class="col-4">
 			<a class="navbar-brand align-self-start" href="./">
 				<img src="img/logo_lado.png" class="logoMargin logoSize" alt="">
