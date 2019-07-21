@@ -15,16 +15,16 @@
 					<a class="nav-link active grow efeitoTransicaoLoja" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicaoLoja" href="sobre.php">Sobre nós</a>
+					<a class="nav-link grow efeitoTransicaoLoja" href="mapa.php">Mapa</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicaoLoja" href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicaoLoja" href="contato.php">Contato</a>
+					<a class="nav-link grow efeitoTransicaoLoja" href="sobre.php">Sobre</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicaoLoja" href="mapa.php">Mapa</a>
+					<a class="nav-link grow efeitoTransicaoLoja" href="contato.php">Contato</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicaoLoja" href="login.php">Login</a>
@@ -52,16 +52,16 @@
 					<a class="nav-link lojaBurg" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link lojaBurg " href="sobre.php">Sobre nós</a>
+					<a class="nav-link lojaBurg " href="mapa.php">Mapa</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link lojaBurg " href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link lojaBurg" href="contato.php">Contato</a>
+					<a class="nav-link lojaBurg" href="sobre.php">Sobre</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link lojaBurg" href="mapa.php">Mapa</a>
+					<a class="nav-link lojaBurg" href="contato.php">Contato</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link lojaBurg" href="login.php">Login</a>
